@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="tvguide-stylesheet.xsl" ?>
+
+<xmltv>
+	<channels>
+		<channel logo-src="./img/logo/world.discoveryworld.se.png">hdshowcase.discoverychannel.com</channel>
+		<channel logo-src="./img/logo/tv4.se.png">hd.tv4.se</channel>
+	</channels>
+	<dates>
+		<date year="2015" month="10" day="13" />
+		<date year="2015" month="10" day="12" />
+	</dates>
+
+</xmltv>
