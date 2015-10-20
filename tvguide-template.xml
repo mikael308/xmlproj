@@ -5,10 +5,13 @@
 	<channels>
 		<channel logo-src="./img/logo/world.discoveryworld.se.png">hdshowcase.discoverychannel.com</channel>
 		<channel logo-src="./img/logo/tv4.se.png">hd.tv4.se</channel>
+		<channel logo-src="./img/logo/nickelodeon.se.png">nickelodeon.se</channel>
 	</channels>
 	<dates>
 		<date year="2015" month="10" day="13" />
-		<date year="2015" month="10" day="12" />
+		<date year="2015" month="10" day="14" />
+		<date year="2015" month="10" day="15" />
+
 	</dates>
 
 </xmltv>

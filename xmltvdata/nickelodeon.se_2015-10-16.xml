@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tv
+  SYSTEM 'xmltv.dtd'>
+<tv generator-info-name="Taiga XMLTV" generator-info-url="http://xmltv.se">
+	<programme channel="nickelodeon.se" start="20151016050000 +0200" stop="20151016051000 +0200">
+		<title lang="sv">Max &amp; Ruby</title>
+		<sub-title lang="sv">Max's Christmas Present</sub-title>
+		<desc lang="sv">Ruby och Max ska ta ett fint kort till mormor men Max vill bara göra fula grimaser. // För att hitta sina försvunna leksaker tar Ruby hjälp av Kitty Kanin och Max kräfta. // Ruby bakar en tårta till mormor. Kommer Superkaninen förstöra eller rädda tårtan?</desc>
+		<credits>
+			<actor>Billy Rosenberg</actor>
+			<actor>Julie Lemieux</actor>
+			<actor>Katie Griffin</actor>
+		</credits>
+		<date>2002</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=71741&amp;seasonid=378751&amp;id=3342671&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/71741</episode-num>
+		<episode-num system="xmltv_ns">4 . 1 .</episode-num>
+		<episode-num system="onscreen">Del 2 säsong 5</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016051000 +0200" stop="20151016051500 +0200">
+		<title lang="sv">Pim &amp; Pom</title>
+		<sub-title lang="sv">Avonturiers</sub-title>
+		<desc lang="sv">När Pim råkar ha ner en tjock bok från hyllan börjar Pom läsa den. Den är full av historier om den modiga äventyraren Pim som går genom öknar, flyger i luftballong och nästan blir kokad levande av kannibaler!</desc>
+		<date>2008</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">. 6 .</episode-num>
+		<episode-num system="onscreen">Del 7</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016051500 +0200" stop="20151016052000 +0200">
+		<title lang="sv">Pim &amp; Pom</title>
+		<sub-title lang="sv">De Alleseter</sub-title>
+		<desc lang="sv">Tanten dammsuger. Pim och Pom är livrädda för dammsugaren, som de kallar för &quot;slukaren&quot;. När tanten stänger av dammsugaren för att svara i telefonen bestämmer sig Pim för att undersöka.</desc>
+		<date>2008</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">. 7 .</episode-num>
+		<episode-num system="onscreen">Del 8</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016052500 +0200" stop="20151016053000 +0200">
+		<title lang="sv">Greta Gris</title>
+		<sub-title lang="sv">Recycling</sub-title>
+		<desc lang="sv">Greta, hennes familj och vännerna leker med leksaksbåtar vid dammen. Alla har var sin båt utom Karin Kanin, så Pappa Gris gör en båt åt henne av tidningspapper. Den är så fin att alla vill ha en.</desc>
+		<credits>
+			<actor>Lily Snowden-Fine</actor>
+			<actor>Richard Ridings</actor>
+			<actor>Morwenna Banks</actor>
+		</credits>
+		<date>2004</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=79222&amp;seasonid=29803&amp;id=346177&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/79222</episode-num>
+		<episode-num system="xmltv_ns">1 . 10 .</episode-num>
+		<episode-num system="onscreen">Del 11 säsong 2</episode-num>
+		<star-rating>
+			<value>7.7 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016053000 +0200" stop="20151016053500 +0200">
+		<title lang="sv">Greta Gris</title>
+		<sub-title lang="sv">The Boat Pond</sub-title>
+		<desc lang="sv">Fåglarna äter upp alla blomsterfrön i Morfar Gris trädgård, så Greta och Georg gör en fågelskrämma för att skrämma bort dem. Men Greta vill inte att fåglarna ska vara hungriga så Mormor Gris sätter upp en fågelmatare åt dem.</desc>
+		<credits>
+			<actor>Lily Snowden-Fine</actor>
+			<actor>Richard Ridings</actor>
+			<actor>Morwenna Banks</actor>
+		</credits>
+		<date>2004</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=79222&amp;seasonid=29803&amp;id=346172&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/79222</episode-num>
+		<episode-num system="xmltv_ns">1 . 11 .</episode-num>
+		<episode-num system="onscreen">Del 12 säsong 2</episode-num>
+		<star-rating>
+			<value>7.7 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016053500 +0200" stop="20151016060000 +0200">
+		<title lang="sv">Bubble Guppies</title>
+		<sub-title lang="sv">Bubble Puppy!</sub-title>
+		<desc lang="sv">Det ska bli den bästa hundkojan nånsin. Men innan Bubble Guppies kan låta Bubble Puppy flytta in i hundkojan måste de bygga den. Hjälp dem att bygga den och lär er mer om hur man gör när man bygger.</desc>
+		<credits>
+			<actor role="Gil">Zachary Gordon</actor>
+			<actor role="Demma">Selena Gonzalez</actor>
+			<actor role="Lenny">Paolo Domingo</actor>
+			<actor role="Nonni">Eamon Pirruccello</actor>
+			<actor role="Luna">Sylvie Feit Marie</actor>
+			<actor role="Little Fish">Skai Jackson</actor>
+			<actor role="Bubble Puppy">Frank Welker</actor>
+			<actor role="Professeur Cooper">Daniel Beretta</actor>
+		</credits>
+		<date>2011</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=226391&amp;seasonid=408431&amp;id=3567391&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/226391</episode-num>
+		<episode-num system="xmltv_ns">0 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016060000 +0200" stop="20151016061000 +0200">
+		<title lang="sv">Paw Patrol</title>
+		<sub-title lang="sv">The New Pup</sub-title>
+		<desc lang="sv">Inget jobb är för stort, ingen valp är för liten! Paw Patrol följer en läroplan som fokuserar på gemenskap, sociala färdigheter och problemlösning.</desc>
+		<credits>
+			<actor role="Zuma">Alex Thorne</actor>
+			<actor>Christian Distefano</actor>
+			<actor role="Jake">Scott McCord</actor>
+			<actor role="Katie">Katherine Forrester</actor>
+		</credits>
+		<date>2013</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=272472&amp;seasonid=593789&amp;id=5050934&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/272472</episode-num>
+		<episode-num system="xmltv_ns">1 . 13 .</episode-num>
+		<episode-num system="onscreen">Del 14 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016061000 +0200" stop="20151016063500 +0200">
+		<title lang="sv">Umizoomi</title>
+		<sub-title lang="sv">Umi Toy Store</sub-title>
+		<desc lang="sv">Elefanten Elli ska göra debut på cirkusen idag! Men när Elli går vilse i stadens trafik och larm måste Team Umizoomi skynda sig att vägleda henne tillbaka till cirkustältet.</desc>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=145951&amp;seasonid=392981&amp;id=4177862&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/145951</episode-num>
+		<episode-num system="xmltv_ns">1 . 19 .</episode-num>
+		<episode-num system="onscreen">Del 20 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016063500 +0200" stop="20151016070000 +0200">
+		<title lang="sv">Dora and Friends</title>
+		<sub-title lang="sv">Mystery of the Magic Horses</sub-title>
+		<desc lang="sv">Dora och Naiya måste lura några hästtjuvar för att få tillbaka en hord med försvunna hästar som ska tillbaka till bondgården där barnen ska rida på dem.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 10 .</episode-num>
+		<episode-num system="onscreen">Del 11 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016070000 +0200" stop="20151016071000 +0200">
+		<title lang="sv">Alvin!!! och gänget</title>
+		<sub-title lang="sv">The App</sub-title>
+		<desc lang="sv">När Dave laddar ner en föräldra-app för att få hjälp med ekorrarna, så gör Alvin allt för att han ska ta bort den igen.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 35 .</episode-num>
+		<episode-num system="onscreen">Del 36 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016071000 +0200" stop="20151016073000 +0200">
+		<title lang="sv">Alvin!!! och gänget</title>
+		<sub-title lang="sv">Don Juan Theodoro</sub-title>
+		<desc lang="sv">Alvin, Simon och tjejerna i Chipettes ger Theodore massa dejtingtips när de tror att han är kär i en tjej. Kommer vår lilla Romeo att reda ut allt det här?</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 34 .</episode-num>
+		<episode-num system="onscreen">Del 35 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016073000 +0200" stop="20151016080000 +0200">
+		<title lang="sv">Rabbids: Invasion</title>
+		<sub-title lang="sv">Rabbid 2.0 / Rabbid Undies / Sneezy Rabbid</sub-title>
+		<desc lang="sv">En Rabbid från framtiden kraschlandar på jorden. / Rabbids slåss om ett par perfekta underbyxor. / När en Rabbid blir förkyld försöker de andra imitera hans nysningar.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 24 .</episode-num>
+		<episode-num system="onscreen">Del 25 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016080000 +0200" stop="20151016083000 +0200">
+		<title lang="sv">Smulbröderna</title>
+		<sub-title lang="sv">Lost at Pond</sub-title>
+		<desc lang="sv">Efter att ha fått en enorm nota på Pumparen levlar Swaysway och Buhdeuce upp till restaurangankor för att betala av sin skuld. Situationen blir obekväm när de äter en limpa kroppsbytarbröd och byter kroppar.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=278482&amp;seasonid=576611&amp;id=4821388&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/278482</episode-num>
+		<episode-num system="xmltv_ns">0 . 8 .</episode-num>
+		<episode-num system="onscreen">Del 9 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016083000 +0200" stop="20151016085000 +0200">
+		<title lang="sv">My Little Pony</title>
+		<sub-title lang="sv">For Whom the Sweetie Belle Toils</sub-title>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">3 . 19 .</episode-num>
+		<episode-num system="onscreen">Del 20 säsong 4</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016085000 +0200" stop="20151016091000 +0200">
+		<title lang="sv">Paw Patrol</title>
+		<sub-title lang="sv">Pups Save an Ace</sub-title>
+		<desc lang="sv">Paw Patrol åker ut i djungeln för att hjälpa Carlos att hitta sin försvunna papegoja Mateo! // Ryder och Paw Patrol måste hjälpa Kapten Piggvar att flytta en bikupa tvärs över bukten till Bonden Als fruktträdgård.</desc>
+		<credits>
+			<director>Jamie Whitney</director>
+			<actor role="Zuma">Alex Thorne</actor>
+			<actor>Christian Distefano</actor>
+			<actor role="Jake">Scott McCord</actor>
+			<actor role="Katie">Katherine Forrester</actor>
+			<writer>Kim Duran</writer>
+		</credits>
+		<date>2013</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=272472&amp;seasonid=593789&amp;id=5030826&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/272472</episode-num>
+		<episode-num system="xmltv_ns">1 . 11 .</episode-num>
+		<episode-num system="onscreen">Del 12 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016091000 +0200" stop="20151016093500 +0200">
+		<title lang="sv">Dora Utforskaren</title>
+		<sub-title lang="sv">Feliz Dia de los Padres</sub-title>
+		<desc lang="sv">Dora och Boots ska överlämna prisrosetten till hästshowen och rider dit på ponnyn Pinto. Men de måste se upp för Swiper...</desc>
+		<credits>
+			<actor>Marc Weiner</actor>
+			<actor>Sasha Tora</actor>
+			<actor>Muhammed Cunningham</actor>
+			<actor>Chris Guifford</actor>
+			<actor>Sasha Toro</actor>
+			<actor>Harrison Chad</actor>
+			<actor>Jose Zelaya</actor>
+			<actor>Jake Burbage</actor>
+			<actor>Ashley Flemming</actor>
+			<actor>Kathleen Herles</actor>
+		</credits>
+		<date>2000</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=74697&amp;seasonid=487954&amp;id=4663003&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/74697</episode-num>
+		<episode-num system="xmltv_ns">6 . 1 .</episode-num>
+		<episode-num system="onscreen">Del 2 säsong 7</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016093500 +0200" stop="20151016095500 +0200">
+		<title lang="sv">Bubble Guppies</title>
+		<sub-title lang="sv">Bubble Puppy!</sub-title>
+		<desc lang="sv">Det ska bli den bästa hundkojan nånsin. Men innan Bubble Guppies kan låta Bubble Puppy flytta in i hundkojan måste de bygga den. Hjälp dem att bygga den och lär er mer om hur man gör när man bygger.</desc>
+		<credits>
+			<actor role="Gil">Zachary Gordon</actor>
+			<actor role="Demma">Selena Gonzalez</actor>
+			<actor role="Lenny">Paolo Domingo</actor>
+			<actor role="Nonni">Eamon Pirruccello</actor>
+			<actor role="Luna">Sylvie Feit Marie</actor>
+			<actor role="Little Fish">Skai Jackson</actor>
+			<actor role="Bubble Puppy">Frank Welker</actor>
+			<actor role="Professeur Cooper">Daniel Beretta</actor>
+		</credits>
+		<date>2011</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=226391&amp;seasonid=408431&amp;id=3567391&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/226391</episode-num>
+		<episode-num system="xmltv_ns">0 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016095500 +0200" stop="20151016102000 +0200">
+		<title lang="sv">Blaze och Monstermaskinerna</title>
+		<sub-title lang="sv">The Mystery Bandit</sub-title>
+		<desc lang="sv">När den hungrige Crusher slår igång bagarens alla bagarbotar börjar de plötsligt åka runt och baka som galningar! Nu gäller det för AJ och Blaze att hitta de kakbakande robotarna innan de täcker hela Axle City med sötsaker.</desc>
+		<credits>
+			<actor role="AJ">Dusan Brown</actor>
+		</credits>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=287036&amp;seasonid=600166&amp;id=5132603&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/287036</episode-num>
+		<episode-num system="xmltv_ns">0 . 10 .</episode-num>
+		<episode-num system="onscreen">Del 11 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016102000 +0200" stop="20151016102500 +0200">
+		<title lang="sv">Greta Gris</title>
+		<sub-title lang="sv">Bicycles</sub-title>
+		<desc lang="sv">Pappa Gris har odlat en enorm pumpa. Greta vill cykla utan stödhjul, men då cyklar hon på pumpan.</desc>
+		<credits>
+			<actor>Lily Snowden-Fine</actor>
+			<actor>Richard Ridings</actor>
+			<actor>Morwenna Banks</actor>
+		</credits>
+		<date>2004</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=79222&amp;seasonid=16210&amp;id=305998&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/79222</episode-num>
+		<episode-num system="xmltv_ns">0 . 11 .</episode-num>
+		<episode-num system="onscreen">Del 12 säsong 1</episode-num>
+		<star-rating>
+			<value>7.7 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016103000 +0200" stop="20151016104000 +0200">
+		<title lang="sv">Wanda Och En Alien</title>
+		<sub-title lang="sv">A Place To Play</sub-title>
+		<desc lang="sv">När en femårig kanin träffar en Alien förändras hela hennes värld. Den blir rikare, mer spännande och intressantare på alla vis.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 40 .</episode-num>
+		<episode-num system="onscreen">Del 41 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016104000 +0200" stop="20151016105500 +0200">
+		<title lang="sv">Little Charmers</title>
+		<sub-title lang="sv">A Charming Fad</sub-title>
+		<desc lang="sv">Hazel får lära sig att jobbet som Enchantress är mycket svårare än hon trott. // Ett ogräs dyker upp och Hazel måste komma på ett sätt att stoppa ogräsets framfart utan magi.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Fantasy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=290498&amp;seasonid=609194&amp;id=5107482&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/290498</episode-num>
+		<episode-num system="xmltv_ns">0 . 5 .</episode-num>
+		<episode-num system="onscreen">Del 6 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016105500 +0200" stop="20151016112500 +0200">
+		<title lang="sv">Lalaloopsy</title>
+		<sub-title lang="sv">Belly Laugh</sub-title>
+		<desc lang="sv">När Forest äter en nöt som gör att han inte kan sluta skratta flyttar Rosy in hos honom för att försöka hitta ett botemedel mot hans skrattiga mage.</desc>
+		<date>2013</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">1 . 3 .</episode-num>
+		<episode-num system="onscreen">Del 4 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016112500 +0200" stop="20151016113500 +0200">
+		<title lang="sv">Alvin!!! och gänget</title>
+		<sub-title lang="sv">The App</sub-title>
+		<desc lang="sv">När Dave laddar ner en föräldra-app för att få hjälp med ekorrarna, så gör Alvin allt för att han ska ta bort den igen.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 35 .</episode-num>
+		<episode-num system="onscreen">Del 36 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016113500 +0200" stop="20151016115500 +0200">
+		<title lang="sv">Alvin!!! och gänget</title>
+		<sub-title lang="sv">Don Juan Theodoro</sub-title>
+		<desc lang="sv">Alvin, Simon och tjejerna i Chipettes ger Theodore massa dejtingtips när de tror att han är kär i en tjej. Kommer vår lilla Romeo att reda ut allt det här?</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 34 .</episode-num>
+		<episode-num system="onscreen">Del 35 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016115500 +0200" stop="20151016120500 +0200">
+		<title lang="sv">Pingvinerna från Madagaskar</title>
+		<sub-title lang="sv">Hot Ice</sub-title>
+		<desc lang="sv">McSlades tupé blåser av och fastnar på Maurice. Babianhonorna misstar honom för en hanbabian och nu måste pingvinerna rädda honom. // Strutsen Shelly blir kär i Rico, när han räddar henne från att fastna i cement. Men Ricos hjärta tillhör hans docka.</desc>
+		<credits>
+			<actor role="Alice">Mary Scheer</actor>
+			<actor role="Kowalski">Jeff Bennett</actor>
+			<actor role="Roger">Richard Kind</actor>
+			<actor role="Joey"/>
+			<actor role="Leonard">Dana Snyder</actor>
+			<actor role="Phil">No voice</actor>
+			<actor role="Dr. Francis Blowhole"/>
+			<actor role="Mason"/>
+			<actor role="Fred"/>
+			<actor role="Officer X">Cedric Yarbrough</actor>
+			<actor role="Rico">John DiMaggio</actor>
+			<actor role="Mort">Andy Richter</actor>
+			<actor role="Skipper">Tom McGrath</actor>
+			<actor role="Burt">Fred Tatasciore</actor>
+			<actor role="Savio">Nestor Carbonell</actor>
+			<actor role="Marlene">Nicole Sullivan</actor>
+			<actor role="Private">James Patrick Stuart</actor>
+			<actor role="Roy">Keith Szarabajka</actor>
+			<actor role="King Julien">Danny Jacobs</actor>
+			<actor role="Maurice">Kevin Michael Richardson</actor>
+			<actor role="Clemson">Larry Miller</actor>
+		</credits>
+		<date>2008</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=85075&amp;seasonid=205691&amp;id=3119201&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/85075</episode-num>
+		<episode-num system="xmltv_ns">1 . 27 .</episode-num>
+		<episode-num system="onscreen">Del 28 säsong 2</episode-num>
+		<star-rating>
+			<value>7.8 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016120500 +0200" stop="20151016123500 +0200">
+		<title lang="sv">Mia and Me</title>
+		<sub-title lang="sv">Trumptus Lost</sub-title>
+		<desc lang="sv">Vincent är avundsjuk på Mias resor till Centopia och lyckas övertala henne att låta honom åka dit. Men precis som Mia anade går någonting fel och det är i stället hon som förflyttas, och måste genast hindra enhörningarna från att besöka Blomsterträdet.</desc>
+		<credits>
+			<actor role="Paula">Saphia Stoney</actor>
+			<actor role="Vincent">Adrian Moore</actor>
+			<actor role="Mia">Rosabell Laurenti Sellers</actor>
+		</credits>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=261370&amp;seasonid=498171&amp;id=4376062&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/261370</episode-num>
+		<episode-num system="xmltv_ns">0 . 3 .</episode-num>
+		<episode-num system="onscreen">Del 4 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016123500 +0200" stop="20151016125500 +0200">
+		<title lang="sv">Totally Spies</title>
+		<sub-title lang="sv">Brain Drain</sub-title>
+		<desc lang="sv">Sam blir utvald att vara med i ett frågeprogram på tv, och när hon förlorar lätt skyller tjejerna det på scenskräck. Men när Sam även börjar att tappa minnet undersöker de saken och upptäcker att programledaren stjäl sina gästers tankeförmåga.</desc>
+		<credits>
+			<actor>Katie Griffin</actor>
+			<actor>Katie Leigh</actor>
+			<actor>Jess Harnell</actor>
+			<actor>Jennifer Hale</actor>
+			<actor>Adrian Truss</actor>
+		</credits>
+		<date>2001</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=77625&amp;seasonid=13269&amp;id=252748&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/77625</episode-num>
+		<episode-num system="xmltv_ns">1 . 23 .</episode-num>
+		<episode-num system="onscreen">Del 24 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016125500 +0200" stop="20151016132500 +0200">
+		<title lang="sv">Winx Club</title>
+		<sub-title lang="sv">Into the Under Realm (aka Rescue Mission)</sub-title>
+		<desc lang="sv">Tillsammans med Specialisterna, reser Bloom, Stella och Layla till Underriket i ett försök på att frita älvorna. På vägen dit, måste de bekämpa Skuggmonsterna och kortvarigt klara sig utan sina krafter.</desc>
+		<credits>
+			<actor role="Bloom">Liza Jacqueline</actor>
+			<actor role="Ms. Griselda">Su Meredith</actor>
+			<actor role="Brandon">Dan Green</actor>
+			<actor role="Musa">Lisa Ortiz</actor>
+			<actor role="Headmistress Faragonda">Rachael Lillis</actor>
+			<actor role="Codatorta">Matt Hoverman</actor>
+			<actor role="Darcy">Caren Manuel</actor>
+			<actor role="Countess Cassandra">Stuart Zagnit</actor>
+			<actor role="Flora">Kerry Williams</actor>
+			<actor role="Timmy">Sebastian Arcelus</actor>
+			<actor role="Riven">Michael Sinterniklaas</actor>
+			<actor role="Daphne">Bella Hudson</actor>
+			<actor role="Stormy">Suzy Myers</actor>
+		</credits>
+		<date>2004</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=74256&amp;seasonid=7160&amp;id=141895&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/74256</episode-num>
+		<episode-num system="xmltv_ns">1 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016132500 +0200" stop="20151016135500 +0200">
+		<title lang="sv">SvampBob Fyrkant</title>
+		<sub-title lang="sv">Jellyfish Jam</sub-title>
+		<desc lang="sv">Bob har en förkärlek för att undersöka ANDRAS drömmar. Han ger sig in i den ena sovande personens drömmar efter den andra...Det blir inte bra.</desc>
+		<credits>
+			<director>Alan Smart</director>
+			<actor>Sirena Irwin</actor>
+			<actor>Dee Bradley Baker</actor>
+			<actor>Camryn Walling</actor>
+			<actor role="Squidward Tentacles">Rodger Bumpass</actor>
+			<actor role="Spongebob Squarepants">Tom Kenny</actor>
+			<actor>Jill Talley</actor>
+			<actor role="Patrick Star">Bill Fagerbakke</actor>
+			<actor>Carolyn Lawrence</actor>
+			<actor role="Mr. Krabs">Clancy Brown</actor>
+			<actor>Lori Alan</actor>
+			<actor role="Sheldon Plankton / Larry the Lobster">Mr. Lawrence</actor>
+			<actor>Mary Jo Catlett</actor>
+			<writer>Ennio Torresan</writer>
+			<writer>Erik Wiese</writer>
+			<writer>Peter Burns</writer>
+		</credits>
+		<date>1999</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=75886&amp;seasonid=9404&amp;id=179447&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/75886</episode-num>
+		<episode-num system="xmltv_ns">0 . 14 .</episode-num>
+		<episode-num system="onscreen">Del 15 säsong 1</episode-num>
+		<star-rating>
+			<value>6.6 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016135500 +0200" stop="20151016142500 +0200">
+		<title lang="sv">Fairly Odd Parents</title>
+		<sub-title lang="sv">Mice-Capades</sub-title>
+		<desc lang="sv">Poff har sett för många avsnitt av den våldsamma tecknade serien &quot;katt &amp; råtta&quot;, och förvandlar Timmy och Vicky. // När Crocker besöker familjen Turner för att klaga på Timmys dåliga betyg, utbryter kaos i huset.</desc>
+		<credits>
+			<actor role="Francis">Faith Abrahams</actor>
+			<actor role="Trixie Tang">Dionne Quan</actor>
+			<actor role="Chester McBadbat (2003-present)">Jason Marsden</actor>
+			<actor role="Timmy Turner / Poof">Tara Strong</actor>
+			<actor role="Wanda / Mrs. Turner">Susan Blakeslee</actor>
+			<actor role="Vicky / Tootie and various">Grey Delisle</actor>
+			<actor role="A.J. Mechawegger (2001 - 2003)">Ibrahim Haneef Muhammad</actor>
+			<actor role="Cosmo / Mr. Turner / Jorgen Von Strangle">Daran Norris</actor>
+			<actor role="Denzel Crocker">Carlos Alazraqui</actor>
+			<actor role="Timmy Turner (Oh Yeah! Cartoons shorts) (1998-1999)">Mary Kay Bergman</actor>
+			<actor role="Chester McBadbat (2001-2003)">Frankie Muniz</actor>
+			<actor role="A.J. Mechawegger (2002 - present)">Gary Leroi Gray</actor>
+		</credits>
+		<date>2001</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=76372&amp;seasonid=32582&amp;id=1492171&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/76372</episode-num>
+		<episode-num system="xmltv_ns">6 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 7</episode-num>
+		<star-rating>
+			<value>8.3 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016142500 +0200" stop="20151016150000 +0200">
+		<title lang="sv">Djungel George</title>
+		<sub-title lang="sv">Steve of the Jungle / / Guess What's Coming for Dinner?</sub-title>
+		<desc lang="sv">Dagens barn behöver en hjälte att se upp till. Vi ger er Djungel-George! George bor i - och skyddar - Mbebwes djungel, ett vilt lekland fyllt av exotiska djur och skurkar som är mer roliga än läskiga.</desc>
+		<date>2007</date>
+		<category lang="en">movie</category>
+		<category lang="en">Movies</category>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016150000 +0200" stop="20151016153000 +0200">
+		<title lang="sv">Fånga Blake!</title>
+		<sub-title lang="sv">Get Hairy! / Get Squirrels!</sub-title>
+		<desc lang="sv">Leonard rekryterar en armé av ekorrar från jorden för att fånga Blake. // Blake och Mitch kommer i kontakt med en hårkräm som gör att de plötsligt får päls.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 9 .</episode-num>
+		<episode-num system="onscreen">Del 10 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016153000 +0200" stop="20151016160000 +0200">
+		<title lang="sv">Harvey Näbbson</title>
+		<sub-title lang="sv">The Rentl Bike</sub-title>
+		<desc lang="sv">Vännerna hittar en svans i skogen och beslutar sig för att behålla den. Men när de ursprungliga ägarna använder fulspel för att få tillbaka svansen visar det sig att Fee kan spela fulare än någon annan.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Animation</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=293115&amp;seasonid=616054&amp;id=5181310&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/293115</episode-num>
+		<episode-num system="xmltv_ns">0 . 4 .</episode-num>
+		<episode-num system="onscreen">Del 5 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016160000 +0200" stop="20151016161000 +0200">
+		<title lang="sv">Alvin!!! och gänget</title>
+		<sub-title lang="sv">Bromance</sub-title>
+		<desc lang="sv">Simon har hittat en ny bästa vän, Jamie. Han är smart, rolig och delar Simons intresse för vetenskap. Men när Jamie inser att Alvin är den populära brodern, dumpar han Simon för att få vara med i det coola gänget.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 25 .</episode-num>
+		<episode-num system="onscreen">Del 26 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016161000 +0200" stop="20151016162500 +0200">
+		<title lang="sv">Alvin!!! och gänget</title>
+		<sub-title lang="sv">Tree House</sub-title>
+		<desc lang="sv">När tjejerna städar sitt trädhus minns de hur de räddade trädet från att huggas ned och hur de gjorde det till sitt hem.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">0 . 38 .</episode-num>
+		<episode-num system="onscreen">Del 39 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016162500 +0200" stop="20151016165500 +0200">
+		<title lang="sv">Nicky, Ricky, Dicky &amp; Dawn</title>
+		<sub-title lang="sv">Urban Legend Outfitters</sub-title>
+		<desc lang="sv">Nicky, Ricky, Dicky och Dawn är fyrlingar men har bara två saker gemensamt: födelsedagen och föräldrarna. Den här dynamiska kvartetten utkämpar ständiga syskonstrider, men när de till slut samarbetar kan ingenting stoppa dem.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<episode-num system="xmltv_ns">1 . 1 .</episode-num>
+		<episode-num system="onscreen">Del 2 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016165500 +0200" stop="20151016172000 +0200">
+		<title lang="sv">Bella and the Bulldogs</title>
+		<sub-title lang="sv">Bromantically Challenged</sub-title>
+		<desc lang="sv">Bella ställer upp på att vara med i Peppers filmprojekt inför stadens stora festival, men inser snabbt att hon inte är så bra på att skådespela. Samtidigt går Troy och Newt med i kören där de får uppleva ombytta roller.</desc>
+		<credits>
+			<director>Alex Winter</director>
+			<actor role="Newt">Buddy Handleson</actor>
+			<actor role="Sophie">Lilimar Hernandez</actor>
+			<actor role="Pepper">Haley Tju</actor>
+			<actor role="Sawyer">Jackie Radinsky</actor>
+			<actor role="Bella Dawson">Brec Bassinger</actor>
+			<actor role="Troy">Coy Stewart</actor>
+		</credits>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=289585&amp;seasonid=606745&amp;id=5118635&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/289585</episode-num>
+		<episode-num system="xmltv_ns">0 . 8 .</episode-num>
+		<episode-num system="onscreen">Del 9 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016172000 +0200" stop="20151016175000 +0200">
+		<title lang="sv">Familjen Thunderman</title>
+		<sub-title lang="sv">Who's Your Mommy</sub-title>
+		<desc lang="sv">Max är som den värsta Scrooge strax innan jul, tills de förflutna, nuvarande och kommande jularnas andar dyker upp för att få honom i julstämning.</desc>
+		<credits>
+			<director>Carl Lauten</director>
+			<actor role="Max Thunderman">Jack Griffo</actor>
+			<actor role="Phoebe Thunderman">Kira Kosarin</actor>
+			<actor role="Billy Thunderman">Diego Velazquez</actor>
+			<actor>Thomas Barbusca</actor>
+			<writer>Anthony Q. Farrell</writer>
+		</credits>
+		<date>2013</date>
+		<category lang="en">series</category>
+		<category lang="en">Comedy</category>
+		<category lang="en">Fantasy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=274283&amp;seasonid=597176&amp;id=5148007&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/274283</episode-num>
+		<episode-num system="xmltv_ns">1 . 15 .</episode-num>
+		<episode-num system="onscreen">Del 16 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016175000 +0200" stop="20151016180000 +0200">
+		<title lang="sv">Ned's Declassified</title>
+		<sub-title lang="sv">Guide to: Vice Principals &amp; Mondays</sub-title>
+		<desc lang="sv">VICE PRINCIPALS När en slipmaskin hittas förstörd på träslöjden vill vicerektorn hitta den skyldiga och Ned, Moze och Cookie är huvudmisstänkta. // MONDAYS Ned och Moze försöker bota måndagsångest medan Cookie hjälper Gordy att hålla sig vaken på jobbet.</desc>
+		<credits>
+			<actor role="Gordy">Daran Norris</actor>
+			<actor role="Jennifer Ann 'Moze' Mosely">Lindsey Shaw</actor>
+			<actor role="Simon Nelson 'Cookie' Cook (">Daniel Curtis Lee</actor>
+			<actor role="Mr. Sweeney (">Don Creech</actor>
+			<actor role="Ned Bigby">Devon Werkheiser</actor>
+			<actor role="Crony">Teo Olivares</actor>
+			<actor role="Billy 'Bully' Loomer">Kyle Swann</actor>
+			<actor role="Suzie Crabgrass">Christian Serratos</actor>
+			<actor role="Coconut Head">Rob Pinkston</actor>
+			<writer>Scott Fellows</writer>
+		</credits>
+		<date>2004</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<category lang="en">Drama</category>
+		<category lang="en">Reality</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=79821&amp;seasonid=17270&amp;id=320518&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/79821</episode-num>
+		<episode-num system="xmltv_ns">1 . 4 .</episode-num>
+		<episode-num system="onscreen">Del 5 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016180000 +0200" stop="20151016183000 +0200">
+		<title lang="sv">Zoey 101</title>
+		<sub-title lang="sv">Robot Wars</sub-title>
+		<desc lang="sv">Det är dags för Zoey att börja sitt andra år på internatskolan Pacific Coast Academy. Ett nytt år innebär nya lektioner, nya spännande äventyr, nya vänner och en ny kompis att dela rum med.</desc>
+		<credits>
+			<director>Adam Weissman</director>
+			<actor role="Michael Barret">Christopher Massey</actor>
+			<actor role="James Garrett">Austin Butler</actor>
+			<actor role="Logan Reese">Matthew Underwood</actor>
+			<actor role="Chase Matthews">Sean Flynn</actor>
+			<actor role="Zoey Brooks">Jamie Lynn Spears</actor>
+			<actor role="Dustin Brooks">Paul Butcher</actor>
+			<actor role="Quinn Pensky">Erin Sanders</actor>
+			<actor role="Lola Martinez">Victoria Justice</actor>
+			<writer>Dan Schneider</writer>
+			<writer>Steve Molaro</writer>
+		</credits>
+		<date>2005</date>
+		<category lang="en">series</category>
+		<category lang="en">Comedy</category>
+		<category lang="en">Drama</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=74647&amp;seasonid=30441&amp;id=350259&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/74647</episode-num>
+		<episode-num system="xmltv_ns">1 . 7 .</episode-num>
+		<episode-num system="onscreen">Del 8 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016183000 +0200" stop="20151016190000 +0200">
+		<title lang="sv">Sam &amp; Cat</title>
+		<sub-title lang="sv">#BabysittingCommercial</sub-title>
+		<desc lang="sv">Cat dricker för mycket av ett örte som ska hjälpa henne plugga bättre. Flera timmar senare vaknar hon upp och Sams motorcykel är borta, men Cat minns ingenting. För att hitta motorcykeln måste hela gänget nu hjälpas åt att lista ut vad Cat har gjort.</desc>
+		<credits>
+			<director>Steve Hoefer</director>
+			<actor role="Nona">Maree Cheatham</actor>
+			<actor role="Sam Puckett">Jennette McCurdy</actor>
+			<actor role="Dice">Cameron Ocasio</actor>
+			<actor role="Cat Valentine">Ariana Grande</actor>
+			<writer>Dan Schneider &amp; Warren Bell</writer>
+		</credits>
+		<date>2013</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=267564&amp;seasonid=519863&amp;id=4648004&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/267564</episode-num>
+		<episode-num system="xmltv_ns">0 . 9 .</episode-num>
+		<episode-num system="onscreen">Del 10 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016190000 +0200" stop="20151016192500 +0200">
+		<title lang="sv">Bella and the Bulldogs</title>
+		<sub-title lang="sv">Newbie QB (1)</sub-title>
+		<desc lang="sv">Cheerleadern Bellas drömmar går i uppfyllelse när hon får chansen att bli skollagets nya quarterback. Killarna i laget gör dock allt de kan för att få henne att hoppa av, men Bella tänker inte ge upp sin dröm så lätt.</desc>
+		<credits>
+			<actor role="Newt">Buddy Handleson</actor>
+			<actor role="Sophie">Lilimar Hernandez</actor>
+			<actor role="Pepper">Haley Tju</actor>
+			<actor role="Sawyer">Jackie Radinsky</actor>
+			<actor role="Bella Dawson">Brec Bassinger</actor>
+			<actor role="Troy">Coy Stewart</actor>
+		</credits>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=289585&amp;seasonid=606745&amp;id=5076949&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/289585</episode-num>
+		<episode-num system="xmltv_ns">0 . 0 .</episode-num>
+		<episode-num system="onscreen">Del 1 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016192500 +0200" stop="20151016195500 +0200">
+		<title lang="sv">Det Hemsökta Huset</title>
+		<sub-title lang="sv">Haunted Viking</sub-title>
+		<desc lang="sv">När Louie inte kommer med i &quot;Spök-skrämmar- skollaget&quot; ger pappa Ray honom i hemlighet en självförtroende-boost som leder till att han tar upp kampen i en duell mot det tuffaste spöket i skolan.</desc>
+		<credits>
+			<actor role="Michelle Hathaway">Ginifer King</actor>
+			<actor role="Taylor Hathaway">Amber Montana</actor>
+			<actor role="Frankie Hathaway">Breanna Yde</actor>
+			<actor role="Ray Preston">Chico Benymon</actor>
+			<actor role="Louie Preston">Benjamin &quot;Lil P-Nut&quot; Flores Jr.</actor>
+			<actor role="Miles Preston">Curtis Harris</actor>
+		</credits>
+		<date>2013</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<category lang="en">Fantasy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=271224&amp;seasonid=523988&amp;id=4847516&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/271224</episode-num>
+		<episode-num system="xmltv_ns">0 . 24 .</episode-num>
+		<episode-num system="onscreen">Del 25 säsong 1</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016195500 +0200" stop="20151016202500 +0200">
+		<title lang="sv">Big Time Rush</title>
+		<sub-title lang="sv">Big Time Beach Party (1)</sub-title>
+		<desc lang="sv">Kendall och Jo hjälper Carlos att stämma träff med en tjej medan Logan flirtar med en ny tjej fastän han fortfarande har känslor för Camille. Samtidigt blir James som en beskyddande far när han ska hjälpa Katie att komma nära sin nya förälskelse.</desc>
+		<credits>
+			<actor role="James Diamond">James Maslow</actor>
+			<actor role="Camille Roberts">Erin Sanders</actor>
+			<actor role="Jo Taylor">Katelyn Tarver</actor>
+			<actor role="Katie Knight">Ciara Bravo</actor>
+			<actor role="Carlos Garcia">Carlos Peña</actor>
+			<actor role="Kendall Knight">Kendall Schmidt</actor>
+			<actor role="Gustavo Rocque">Stephen Kramer Glickman</actor>
+			<actor role="Kelly Wainwright">Tanya Chisholm</actor>
+			<actor role="Logan Mitchell">Logan Henderson</actor>
+		</credits>
+		<date>2009</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=142831&amp;seasonid=295911&amp;id=3856401&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/142831</episode-num>
+		<episode-num system="xmltv_ns">1 . 11 .</episode-num>
+		<episode-num system="onscreen">Del 12 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016202500 +0200" stop="20151016205000 +0200">
+		<title lang="sv">Big Time Rush</title>
+		<sub-title lang="sv">Big Time Girl Group</sub-title>
+		<desc lang="sv">Griffin filmar killarna och vill göra en ny doku-såpa.</desc>
+		<credits>
+			<actor role="James Diamond">James Maslow</actor>
+			<actor role="Camille Roberts">Erin Sanders</actor>
+			<actor role="Jo Taylor">Katelyn Tarver</actor>
+			<actor role="Katie Knight">Ciara Bravo</actor>
+			<actor role="Carlos Garcia">Carlos Peña</actor>
+			<actor role="Kendall Knight">Kendall Schmidt</actor>
+			<actor role="Gustavo Rocque">Stephen Kramer Glickman</actor>
+			<actor role="Kelly Wainwright">Tanya Chisholm</actor>
+			<actor role="Logan Mitchell">Logan Henderson</actor>
+		</credits>
+		<date>2009</date>
+		<category lang="en">series</category>
+		<category lang="en">Children's</category>
+		<category lang="en">Comedy</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=142831&amp;seasonid=295911&amp;id=4083845&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/142831</episode-num>
+		<episode-num system="xmltv_ns">1 . 15 .</episode-num>
+		<episode-num system="onscreen">Del 16 säsong 2</episode-num>
+	</programme>
+	<programme channel="nickelodeon.se" start="20151016205000 +0200" stop="20151016210000 +0200">
+		<title lang="sv">Zoey 101</title>
+		<sub-title lang="sv">Chase's Grandma</sub-title>
+		<desc lang="sv">Det är dags för Zoey att börja sitt andra år på internatskolan Pacific Coast Academy. Ett nytt år innebär nya lektioner, nya spännande äventyr, nya vänner och en ny kompis att dela rum med.</desc>
+		<credits>
+			<director>Michael Grossman</director>
+			<actor role="Michael Barret">Christopher Massey</actor>
+			<actor role="James Garrett">Austin Butler</actor>
+			<actor role="Logan Reese">Matthew Underwood</actor>
+			<actor role="Chase Matthews">Sean Flynn</actor>
+			<actor role="Zoey Brooks">Jamie Lynn Spears</actor>
+			<actor role="Dustin Brooks">Paul Butcher</actor>
+			<actor role="Quinn Pensky">Erin Sanders</actor>
+			<actor role="Lola Martinez">Victoria Justice</actor>
+			<writer>Ethan Banville</writer>
+			<writer>Arthur Gradstein</writer>
+		</credits>
+		<date>2005</date>
+		<category lang="en">series</category>
+		<category lang="en">Comedy</category>
+		<category lang="en">Drama</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=74647&amp;seasonid=30442&amp;id=350273&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/74647</episode-num>
+		<episode-num system="xmltv_ns">2 . 11 .</episode-num>
+		<episode-num system="onscreen">Del 12 säsong 3</episode-num>
+	</programme>
+</tv>
+
