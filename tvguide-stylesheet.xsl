@@ -2,7 +2,15 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
+
+
+
 	<xsl:template name="tRoot" match="/xmltv" >
+		<!-- add stylesheet declaration-->
+		<xsl:processing-instruction name="xml-stylesheet">
+				<xsl:text>type="text/xsl" href="lexicon-html.xsl"</xsl:text>
+		</xsl:processing-instruction>
+
 		<tvguide>
 			<xsl:for-each select="dates/date">
 				<xsl:sort select="@year"   date-type="number" order="ascending" />
@@ -25,8 +33,6 @@
 
 
 
-
-
 	<xsl:template name="tDate">
 		<xsl:variable name="year"   select="@year" />
 		<xsl:variable name="month"  select="@month" />
@@ -45,6 +51,8 @@
 
 		</date>
 	</xsl:template> <!-- tDate -->
+
+
 
 	<xsl:template name="tChannel" >
 		<xsl:param name="xmltvdata-file" />
@@ -74,17 +82,19 @@
 
 
 
+	<xsl:attribute-set name="attrsRole">
+		<xsl:attribute name="role"><xsl:value-of select="./@role" /></xsl:attribute>
+	</xsl:attribute-set>
 
 	<xsl:template  match="credits">
-
 
 		<credits>
 			<xsl:for-each select="./*">
 				<xsl:choose>
 					<xsl:when test="@role" >
-						<actor role="{@role}"><xsl:value-of select="." /></actor>
-						<!-- TODO hur göra när det är <actor role="blabla">marlon</actor>
--->
+						<xsl:element name="{name(.)}" use-attribute-sets="attrsRole">
+							<xsl:value-of select="." />
+						</xsl:element>
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:element name="{name(.)}">
@@ -102,17 +112,20 @@
 
 
 
+	<xsl:attribute-set name="attrsLang">
+		<xsl:attribute name="lang"><xsl:value-of select="./@lang" /></xsl:attribute>
+	</xsl:attribute-set>
+
 	<xsl:template match="child::*">
 		<xsl:choose>
 			<xsl:when test="@lang">
-				<xsl:element name="{name(.)}" use-attribute-sets="[klaatu]"><xsl:value-of select="." /></xsl:element>
+				<xsl:element name="{name(.)}" use-attribute-sets="attrsLang"><xsl:value-of select="." /></xsl:element>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:element name="{name(.)}"><xsl:value-of select="." /></xsl:element>
 
 			</xsl:otherwise>
 		</xsl:choose>
-
 	</xsl:template>
 
 
