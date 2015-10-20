@@ -8,7 +8,7 @@
 	<xsl:template name="tRoot" match="/xmltv" >
 		<!-- add stylesheet declaration-->
 		<xsl:processing-instruction name="xml-stylesheet">
-				<xsl:text>type="text/xsl" href="lexicon-html.xsl"</xsl:text>
+				<xsl:text>type="text/xsl" href="tvguide-html.xsl"</xsl:text>
 		</xsl:processing-instruction>
 
 		<tvguide>
