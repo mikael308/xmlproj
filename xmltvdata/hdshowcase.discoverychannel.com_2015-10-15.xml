@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tv
+  SYSTEM 'xmltv.dtd'>
+<tv generator-info-name="Taiga XMLTV" generator-info-url="http://xmltv.se">
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015021500 +0200" stop="20151015030000 +0200">
+		<title lang="sv">I Almost Got Away with It</title>
+		<desc lang="sv">Efter tio års fängelse för rån och misshandel blev McCallum framgångsrik bilförsäljare. Men skickar en märklig olycka honom tillbaka till fängelset?</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 45 .</episode-num>
+		<episode-num system="onscreen">Del 46</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015030000 +0200" stop="20151015034500 +0200">
+		<title lang="sv">Gold Rush</title>
+		<sub-title lang="sv">Man Down</sub-title>
+		<desc lang="sv">John Schnabel drabbas av en livshotande hjärtattack, Hoffman-gänget hittar en guldklimp och Dakota Fred uppnår det som Jack Hoffman inte klarade.</desc>
+		<credits>
+			<actor role="Himself">James Harness</actor>
+			<actor role="Himself">Todd Hoffman</actor>
+			<actor role="Himself">Fred Hurt</actor>
+			<actor role="Himself">Dave Turin</actor>
+			<actor role="Himself">Tony Beets</actor>
+			<actor role="Himself">Chris Doumitt</actor>
+			<actor role="Himself">Jim Thurber</actor>
+			<actor role="Himself">Jack Hoffman</actor>
+			<actor role="Himself">Greg Remsburg</actor>
+			<actor role="Himself">Parker Schnabel</actor>
+		</credits>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Reality</category>
+		<category lang="en">Special Interest</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=208111&amp;seasonid=474598&amp;id=4251285&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/208111</episode-num>
+		<episode-num system="xmltv_ns">1 . 12 .</episode-num>
+		<episode-num system="onscreen">Del 13 säsong 2</episode-num>
+		<star-rating>
+			<value>6.1 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015034500 +0200" stop="20151015043000 +0200">
+		<title lang="sv">Alien Sharks: Close Encounters</title>
+		<desc lang="sv">Hajforskaren Paul Clerkin använder sig av modern teknik för att kunna närma sig några av de allra mest fantastiska och ovanliga hajarna i världen.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015043000 +0200" stop="20151015045200 +0200">
+		<title lang="sv">Cake Boss</title>
+		<sub-title lang="sv">Pucks, Pastries and Pushy Grace</sub-title>
+		<desc lang="sv">Buddy får en förfrågan av två ishockeyälskande pojkar som vill ha en tårta i form av ett fullstort ishockeyspel med riktiga figurer man kan spela med.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 6 .</episode-num>
+		<episode-num system="onscreen">Del 7</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015045200 +0200" stop="20151015051500 +0200">
+		<title lang="sv">Cake Boss</title>
+		<sub-title lang="sv">Staten Island Chuck, Strange Oddities and Sal</sub-title>
+		<desc lang="sv">Teamet designar en tårta till &quot;Staten Island Chuck&quot; och Buddy gör en upp och nervänd tårta inspirerad av kundens favoritplats i världen.</desc>
+		<credits>
+			<actor role="Grace's Husband">Joey Faugno</actor>
+			<actor role="Herself">Maddalena Castano</actor>
+			<actor role="Herself">Lisa Gonzalez</actor>
+			<actor role="Herself">Lisa Valastro</actor>
+			<actor role="Fluffy">Danny Dragone</actor>
+			<actor role="Himself">Buddy Valastro</actor>
+			<actor role="Herself">Grace Faugno</actor>
+			<actor role="Himself">Frankie Amato Jr.</actor>
+			<actor role="Himself">Mauro Castano</actor>
+			<actor role="Herself">Mary Valastro</actor>
+			<actor role="Herself">Mary Sciarrone</actor>
+		</credits>
+		<date>2009</date>
+		<category lang="en">series</category>
+		<category lang="en">Reality</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=107671&amp;seasonid=412191&amp;id=3899371&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/107671</episode-num>
+		<episode-num system="xmltv_ns">3 . 7 .</episode-num>
+		<episode-num system="onscreen">Del 8 säsong 4</episode-num>
+		<star-rating>
+			<value>5.7 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015051500 +0200" stop="20151015060000 +0200">
+		<title lang="sv">1000 platser du måste se innan du dör</title>
+		<sub-title lang="sv">France</sub-title>
+		<desc lang="sv">Albin och Melanie Ulle fördjupar sig i gallisk kultur, konst, mode och spelande under sin resa runt Frankrike.</desc>
+		<credits>
+			<actor role="Host">Albin Ulle</actor>
+			<actor role="Host">Melanie Ulle</actor>
+		</credits>
+		<date>2007</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=83346&amp;seasonid=36007&amp;id=395531&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/83346</episode-num>
+		<episode-num system="xmltv_ns">0 . 5 .</episode-num>
+		<episode-num system="onscreen">Del 6 säsong 1</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015060000 +0200" stop="20151015064500 +0200">
+		<title lang="sv">Djurakuten</title>
+		<desc lang="sv">Onkologen Jenny Helm tar hand om katten Misha som har en oroande knöl i bröstet och en övergiven hundvalp kommer in för en banbrytande operation.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 4 .</episode-num>
+		<episode-num system="onscreen">Del 5</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015064500 +0200" stop="20151015073000 +0200">
+		<title lang="sv">Groomer has it</title>
+		<sub-title lang="sv">Chow Time</sub-title>
+		<desc lang="sv">Trimmarna besöker ett hundbageri och får chansen att baka godsaker till sina hundar. Deltagarna får också veta att de ska delta i en testpanel för mat.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 5 .</episode-num>
+		<episode-num system="onscreen">Del 6</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015073000 +0200" stop="20151015075200 +0200">
+		<title lang="sv">Superhuman Science</title>
+		<desc lang="sv">Ett urval av internets mest extrema människor och deras bedrifter analyseras av ledande experter inom fysik, kemi, biologi och digital media16+</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 7 .</episode-num>
+		<episode-num system="onscreen">Del 8</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015075200 +0200" stop="20151015081500 +0200">
+		<title lang="sv">Superhuman Science</title>
+		<desc lang="sv">Ett urval av internets mest extrema människor och deras bedrifter analyseras av ledande experter inom fysik, kemi, biologi och digital media16+</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 6 .</episode-num>
+		<episode-num system="onscreen">Del 7</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015081500 +0200" stop="20151015090000 +0200">
+		<title lang="sv">Framtidens värld</title>
+		<sub-title lang="sv">Future Cars</sub-title>
+		<desc lang="sv">Vi reser framåt i tiden och utforskar tekniska framsteg som kan förändra våra liv. Den här gången utforskar vi supersnabba bilar och röstigenkänning.</desc>
+		<credits>
+			<director>Ken Hamm</director>
+			<actor>Mason Pettit</actor>
+			<writer>Bruce Kennedy</writer>
+		</credits>
+		<date>2008</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<category lang="en">Sci-Fi</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=82754&amp;seasonid=34682&amp;id=383995&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/82754</episode-num>
+		<episode-num system="xmltv_ns">0 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 1</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015090000 +0200" stop="20151015094500 +0200">
+		<title lang="sv">Deadliest Catch</title>
+		<sub-title lang="sv">Deadline</sub-title>
+		<desc lang="sv">En ny deadline spikas: en prissänkning på kungskrabbor får kaptenerna att skynda sig att avsluta säsongen. Men fejder mellan manskapen och en hård storm lägger hinder i vägen.</desc>
+		<credits>
+			<actor role="Himself">Sig Hansen</actor>
+			<actor role="Narrator">Mike Rowe</actor>
+			<actor role="Himself">Jake Harris</actor>
+			<actor role="Himself">Keith Colburn</actor>
+			<actor role="Himself">Edgar Hansen</actor>
+		</credits>
+		<date>2005</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<category lang="en">Reality</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=78957&amp;seasonid=52971&amp;id=665301&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/78957</episode-num>
+		<episode-num system="xmltv_ns">4 . 5 .</episode-num>
+		<episode-num system="onscreen">Del 6 säsong 5</episode-num>
+		<star-rating>
+			<value>6.6 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015094500 +0200" stop="20151015103000 +0200">
+		<title lang="sv">American Chopper</title>
+		<sub-title lang="sv">Siemens' Electric Bike</sub-title>
+		<desc lang="sv">Det råder kaos i verkstaden, men hur går det för de olika medlemmarna i familjen Teutul nu när de gått skilda vägar?</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 14 .</episode-num>
+		<episode-num system="onscreen">Del 15</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015103000 +0200" stop="20151015111500 +0200">
+		<title lang="sv">Alien Sharks: Close Encounters</title>
+		<desc lang="sv">Hajforskaren Paul Clerkin använder sig av modern teknik för att kunna närma sig några av de allra mest fantastiska och ovanliga hajarna i världen.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015111500 +0200" stop="20151015120000 +0200">
+		<title lang="sv">Gold Rush</title>
+		<sub-title lang="sv">Man Down</sub-title>
+		<desc lang="sv">John Schnabel drabbas av en livshotande hjärtattack, Hoffman-gänget hittar en guldklimp och Dakota Fred uppnår det som Jack Hoffman inte klarade.</desc>
+		<credits>
+			<actor role="Himself">James Harness</actor>
+			<actor role="Himself">Todd Hoffman</actor>
+			<actor role="Himself">Fred Hurt</actor>
+			<actor role="Himself">Dave Turin</actor>
+			<actor role="Himself">Tony Beets</actor>
+			<actor role="Himself">Chris Doumitt</actor>
+			<actor role="Himself">Jim Thurber</actor>
+			<actor role="Himself">Jack Hoffman</actor>
+			<actor role="Himself">Greg Remsburg</actor>
+			<actor role="Himself">Parker Schnabel</actor>
+		</credits>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Reality</category>
+		<category lang="en">Special Interest</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=208111&amp;seasonid=474598&amp;id=4251285&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/208111</episode-num>
+		<episode-num system="xmltv_ns">1 . 12 .</episode-num>
+		<episode-num system="onscreen">Del 13 säsong 2</episode-num>
+		<star-rating>
+			<value>6.1 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015120000 +0200" stop="20151015124500 +0200">
+		<title lang="sv">Djurakuten</title>
+		<desc lang="sv">Oorla, en Alaskan Malamute, har fått en cancersvulst bortopererad. Men veterinärer upptäcker att cancern spritt sig - kan strålbehandling rädda henne?</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 5 .</episode-num>
+		<episode-num system="onscreen">Del 6</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015124500 +0200" stop="20151015133000 +0200">
+		<title lang="sv">Framtidens värld</title>
+		<sub-title lang="sv">Future Cars</sub-title>
+		<desc lang="sv">Vi reser framåt i tiden och utforskar tekniska framsteg som kan förändra våra liv. Den här gången utforskar vi supersnabba bilar och röstigenkänning.</desc>
+		<credits>
+			<director>Ken Hamm</director>
+			<actor>Mason Pettit</actor>
+			<writer>Bruce Kennedy</writer>
+		</credits>
+		<date>2008</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<category lang="en">Sci-Fi</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=82754&amp;seasonid=34682&amp;id=383995&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/82754</episode-num>
+		<episode-num system="xmltv_ns">0 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 1</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015133000 +0200" stop="20151015135200 +0200">
+		<title lang="sv">Superhuman Science</title>
+		<desc lang="sv">Ett urval av internets mest extrema människor och deras bedrifter analyseras av ledande experter inom fysik, kemi, biologi och digital media16+</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 6 .</episode-num>
+		<episode-num system="onscreen">Del 7</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015135200 +0200" stop="20151015141500 +0200">
+		<title lang="sv">Superhuman Science</title>
+		<desc lang="sv">Ett urval av internets mest extrema människor och deras bedrifter analyseras av ledande experter inom fysik, kemi, biologi och digital media16+</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 7 .</episode-num>
+		<episode-num system="onscreen">Del 8</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015141500 +0200" stop="20151015150000 +0200">
+		<title lang="sv">Alien Sharks: Close Encounters</title>
+		<desc lang="sv">Hajforskaren Paul Clerkin använder sig av modern teknik för att kunna närma sig några av de allra mest fantastiska och ovanliga hajarna i världen.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015150000 +0200" stop="20151015154500 +0200">
+		<title lang="sv">Deadliest Catch</title>
+		<sub-title lang="sv">Down to the Wire</sub-title>
+		<desc lang="sv">Säsongen lider mot sitt slut och skepparna kämpar för att håva in så många kungskrabbor som möjligt. Vem kan stoltsera med den största fångsten?</desc>
+		<credits>
+			<actor role="Himself">Sig Hansen</actor>
+			<actor role="Narrator">Mike Rowe</actor>
+			<actor role="Himself">Jake Harris</actor>
+			<actor role="Himself">Keith Colburn</actor>
+			<actor role="Himself">Edgar Hansen</actor>
+		</credits>
+		<date>2005</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<category lang="en">Reality</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=78957&amp;seasonid=52971&amp;id=665331&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/78957</episode-num>
+		<episode-num system="xmltv_ns">4 . 6 .</episode-num>
+		<episode-num system="onscreen">Del 7 säsong 5</episode-num>
+		<star-rating>
+			<value>6.6 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015154500 +0200" stop="20151015163000 +0200">
+		<title lang="sv">LA Ink</title>
+		<sub-title lang="sv">First Anniversary</sub-title>
+		<desc lang="sv">Studion fyller ett år och Kat ger Naheed i uppgift att organisera festen. Studion får också besök av Nick Wheeler från tv-programmet The All-American Rejects.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 10 .</episode-num>
+		<episode-num system="onscreen">Del 11</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015163000 +0200" stop="20151015171500 +0200">
+		<title lang="sv">Groomer has it</title>
+		<sub-title lang="sv">On the Cover</sub-title>
+		<desc lang="sv">Sökandet efter den bästa hundtrimmaren fortsätter. I dag ska deltagarna leta upp en hund i behov av trimning i den lokala hundparken, och följa upp det med en fotografering.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 6 .</episode-num>
+		<episode-num system="onscreen">Del 7</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015171500 +0200" stop="20151015173700 +0200">
+		<title lang="sv">Cake Boss</title>
+		<sub-title lang="sv">Punches, Psychics and Pastries</sub-title>
+		<desc lang="sv">Bageriet får överraskande besök av wrestlingmästaren Santino Morella som visar upp sina mest kända grepp och beställer en enorm wrestlingtårta.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 8 .</episode-num>
+		<episode-num system="onscreen">Del 9</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015173700 +0200" stop="20151015180000 +0200">
+		<title lang="sv">Cake Boss</title>
+		<sub-title lang="sv">Designer, Deadlines and Diagnosis</sub-title>
+		<desc lang="sv">Modedesignern Isaac Mizrahi beställer sju modeinspirerade tårtor som modeller ska bära nerför podiet. Och Buddy får veta att han behöver opereras.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 9 .</episode-num>
+		<episode-num system="onscreen">Del 10</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015180000 +0200" stop="20151015184500 +0200">
+		<title lang="sv">What Could Possibly Go Wrong?</title>
+		<sub-title lang="sv">Lawnmower Jousting Royale</sub-title>
+		<desc lang="sv">Grant och Kevin studerar rustningars design och tävlar mot varandra i riddarspel med gräsklippare.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Reality</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=291522&amp;seasonid=611886&amp;id=5129226&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/291522</episode-num>
+		<episode-num system="xmltv_ns">0 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 1</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015184500 +0200" stop="20151015193000 +0200">
+		<title lang="sv">Through the Wormhole with Morgan Freeman</title>
+		<sub-title lang="sv">Will Eternity End?</sub-title>
+		<desc lang="sv">Det är möjligt att evigheten redan existerar och att framtiden reser tillbaka i tiden för att forma nuet eller att tiden är en holografisk projektion.</desc>
+		<credits>
+			<actor role="Narrator">Morgan Freeman</actor>
+		</credits>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=168571&amp;seasonid=486947&amp;id=4334920&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/168571</episode-num>
+		<episode-num system="xmltv_ns">2 . 8 .</episode-num>
+		<episode-num system="onscreen">Del 9 säsong 3</episode-num>
+		<star-rating>
+			<value>8.1 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015193000 +0200" stop="20151015201500 +0200">
+		<title lang="sv">Island of the Mega Shark</title>
+		<desc lang="sv">De kända hajexperterna Jeff Kurr, Andy Casagrande och Dickie Chivell beger sig till vulkanön Guadeloupe för att hitta världens största vithajar.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015201500 +0200" stop="20151015210000 +0200">
+		<title lang="sv">Gold Rush</title>
+		<sub-title lang="sv">In the Black</sub-title>
+		<desc lang="sv">Hoffman-gänget sätter allt på spel, medan Fred lämnar värdefull mark bakom sig och John Schnabel återvänder efter att ha överlevt hjärtattacken.</desc>
+		<credits>
+			<actor role="Himself">James Harness</actor>
+			<actor role="Himself">Todd Hoffman</actor>
+			<actor role="Himself">Fred Hurt</actor>
+			<actor role="Himself">Dave Turin</actor>
+			<actor role="Himself">Tony Beets</actor>
+			<actor role="Himself">Chris Doumitt</actor>
+			<actor role="Himself">Jim Thurber</actor>
+			<actor role="Himself">Jack Hoffman</actor>
+			<actor role="Himself">Greg Remsburg</actor>
+			<actor role="Himself">Parker Schnabel</actor>
+		</credits>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Reality</category>
+		<category lang="en">Special Interest</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=208111&amp;seasonid=474598&amp;id=4251625&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/208111</episode-num>
+		<episode-num system="xmltv_ns">1 . 13 .</episode-num>
+		<episode-num system="onscreen">Del 14 säsong 2</episode-num>
+		<star-rating>
+			<value>6.3 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015210000 +0200" stop="20151015214500 +0200">
+		<title lang="sv">What Could Possibly Go Wrong?</title>
+		<sub-title lang="sv">Lawnmower Jousting Royale</sub-title>
+		<desc lang="sv">Grant och Kevin studerar rustningars design och tävlar mot varandra i riddarspel med gräsklippare.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Reality</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=291522&amp;seasonid=611886&amp;id=5129226&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/291522</episode-num>
+		<episode-num system="xmltv_ns">0 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 1</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015214500 +0200" stop="20151015223000 +0200">
+		<title lang="sv">Through the Wormhole with Morgan Freeman</title>
+		<sub-title lang="sv">Will Eternity End?</sub-title>
+		<desc lang="sv">Det är möjligt att evigheten redan existerar och att framtiden reser tillbaka i tiden för att forma nuet eller att tiden är en holografisk projektion.</desc>
+		<credits>
+			<actor role="Narrator">Morgan Freeman</actor>
+		</credits>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=168571&amp;seasonid=486947&amp;id=4334920&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/168571</episode-num>
+		<episode-num system="xmltv_ns">2 . 8 .</episode-num>
+		<episode-num system="onscreen">Del 9 säsong 3</episode-num>
+		<star-rating>
+			<value>8.1 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015223000 +0200" stop="20151015231500 +0200">
+		<title lang="sv">Island of the Mega Shark</title>
+		<desc lang="sv">De kända hajexperterna Jeff Kurr, Andy Casagrande och Dickie Chivell beger sig till vulkanön Guadeloupe för att hitta världens största vithajar.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151015231500 +0200" stop="20151016000000 +0200">
+		<title lang="sv">I Almost Got Away with It</title>
+		<sub-title lang="sv">Got to Escape from the Rock</sub-title>
+		<desc lang="sv">William Van Poyck hade avtjänat 6 år av sitt straff när han rymde. 1987 förbereder han sitt mest vågade brott: att överfalla en fängelsetransport.</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 46 .</episode-num>
+		<episode-num system="onscreen">Del 47</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151016000000 +0200" stop="20151016004500 +0200">
+		<title lang="sv">What Could Possibly Go Wrong?</title>
+		<sub-title lang="sv">Lawnmower Jousting Royale</sub-title>
+		<desc lang="sv">Grant och Kevin studerar rustningars design och tävlar mot varandra i riddarspel med gräsklippare.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Reality</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=291522&amp;seasonid=611886&amp;id=5129226&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/291522</episode-num>
+		<episode-num system="xmltv_ns">0 . 2 .</episode-num>
+		<episode-num system="onscreen">Del 3 säsong 1</episode-num>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151016004500 +0200" stop="20151016013000 +0200">
+		<title lang="sv">Through the Wormhole with Morgan Freeman</title>
+		<sub-title lang="sv">Will Eternity End?</sub-title>
+		<desc lang="sv">Det är möjligt att evigheten redan existerar och att framtiden reser tillbaka i tiden för att forma nuet eller att tiden är en holografisk projektion.</desc>
+		<credits>
+			<actor role="Narrator">Morgan Freeman</actor>
+		</credits>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=168571&amp;seasonid=486947&amp;id=4334920&amp;lid=7</url>
+		<episode-num system="thetvdb.com">series/168571</episode-num>
+		<episode-num system="xmltv_ns">2 . 8 .</episode-num>
+		<episode-num system="onscreen">Del 9 säsong 3</episode-num>
+		<star-rating>
+			<value>8.1 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hdshowcase.discoverychannel.com" start="20151016013000 +0200" stop="20151016021500 +0200">
+		<title lang="sv">Finding Bigfoot</title>
+		<sub-title lang="sv">Pilot</sub-title>
+		<desc lang="sv">Matt Moneymaker och hans team från Bigfoot Research Organization åker till Prince of Wales Island, Alaska, för att granska observationer av Bigfoot,</desc>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">. 0 .</episode-num>
+		<episode-num system="onscreen">Del 1</episode-num>
+	</programme>
+</tv>
+

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE tv
+  SYSTEM 'xmltv.dtd'>
+<tv generator-info-name="Taiga XMLTV" generator-info-url="http://xmltv.se">
+	<programme channel="hd.tv4.se" start="20151015024500 +0200" stop="20151015034000 +0200">
+		<title lang="sv">Beauty and the beast</title>
+		<desc lang="sv">Cat får reda på något mer om sitt förflutna. Gabe är på jakt efter svar.</desc>
+		<credits>
+			<actor role="Catherine Chandler">Kristin Kreuk</actor>
+			<actor role="Evan Marks">Max Brown</actor>
+			<actor role="J.T. Forbes">Austin Basis</actor>
+			<actor role="Vincent Keller">Jay Ryan</actor>
+			<actor role="Tess Vargas">Nina Lisandrello</actor>
+		</credits>
+		<date>2012</date>
+		<category lang="en">series</category>
+		<category lang="en">Drama</category>
+		<episode-num system="xmltv_ns">0 . 21/22 .</episode-num>
+		<episode-num system="onscreen">Del 22 av 22 säsong 1</episode-num>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015034000 +0200" stop="20151015043500 +0200">
+		<title lang="sv">Borgias</title>
+		<sub-title lang="sv">The Gunpowder Plot</sub-title>
+		<desc lang="sv">Cesare och Lucrezia är återförenade men Alfonso börjar bli misstänksam mot dem.</desc>
+		<credits>
+			<director>Neil Jordan</director>
+			<actor role="Giuliano Della Rovere">Colm Feore</actor>
+			<actor role="Lucrezia Borgia">Holliday Grainger</actor>
+			<actor role="Rodrigo Borgia">Jeremy Irons</actor>
+			<actor role="Cardinal Orsini">Derek Jacobi</actor>
+			<actor role="Djem">Elyes Gabel</actor>
+			<actor role="Giulia Farnese">Lotte Verbeek</actor>
+			<actor role="Juan Borgia">David Oakes</actor>
+			<actor role="Joffre Borgia">Aidan Alexander</actor>
+			<actor role="Cesare Borgia">Francois Arnaud</actor>
+			<actor role="Vanossa">Joanne Whalley</actor>
+			<actor role="Ursula Bonadeo">Ruta Gedmintas</actor>
+			<writer>Neil Jordan</writer>
+		</credits>
+		<date>2011</date>
+		<category lang="en">series</category>
+		<category lang="en">Drama</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=187881&amp;seasonid=509767&amp;id=4508039&amp;lid=8</url>
+		<episode-num system="thetvdb.com">series/187881</episode-num>
+		<episode-num system="xmltv_ns">2 . 8 .</episode-num>
+		<episode-num system="onscreen">Del 9 säsong 3</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+		<star-rating>
+			<value>6.7 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015055000 +0200" stop="20151015100000 +0200">
+		<title lang="sv">Nyhetsmorgon</title>
+		<desc lang="sv">Direktsänt morgonprogram. Nyheter varvas med fördjupande diskussioner, bevakning av de senaste trenderna, personliga intervjuer, kultur och sport. Programledare måndag till onsdag är Tilde de Paula och Peter Jihde och på torsdagar leds det av Jenny Strömstedt och Steffo Törnquist.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">News</category>
+		<episode-num system="xmltv_ns">2014 . 7/50 .</episode-num>
+		<episode-num system="onscreen">Del 8 av 50 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015100000 +0200" stop="20151015113500 +0200">
+		<title lang="sv">Malou efter tio</title>
+		<desc lang="sv">Carola Häggkvist har hjälpt flyktingar och gett tio stycken har nu flyttat in hemma hos henne. Flyktingarna berättar om sin flykt och om det nya livet i Sverige. Skådespelaren David Dencik om att bli pappa.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">2014 . 23/50 .</episode-num>
+		<episode-num system="onscreen">Del 24 av 50 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015113500 +0200" stop="20151015121000 +0200">
+		<title lang="sv">Hem till gården</title>
+		<desc lang="sv">Vanessa försvarar sitt förhållande med Kirin. Edna plågas av sitt förflutna.</desc>
+		<credits>
+			<director>Duncan Foster</director>
+			<actor role="Declan Macey">Jason Merrells</actor>
+			<actor role="Vanessa Woodfield">Michelle Hardwick</actor>
+			<actor role="Kirin Kotecha">Adam Fielding</actor>
+			<actor role="Aaron Livesy">Danny Miller</actor>
+			<actor role="Sandy Thomas">Freddie Jones</actor>
+			<actor role="Edna Birch">Shirley Stelfox</actor>
+			<actor>Maxine Alderton</actor>
+			<producer>Kate Oates</producer>
+			<producer>John Whiston</producer>
+		</credits>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Drama</category>
+		<episode-num system="xmltv_ns">28 . 26/300 .</episode-num>
+		<episode-num system="onscreen">Del 27 av 300 säsong 29</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015121000 +0200" stop="20151015124500 +0200">
+		<title lang="sv">Hem till gården</title>
+		<desc lang="sv">Nyheter sprider sig i byn. Sandy blir chockad när hon får reda på sanningen om Ednas förflutna.</desc>
+		<credits>
+			<director>Henry Foster</director>
+			<actor role="Vanessa Woodfield">Michelle Hardwick</actor>
+			<actor role="Adam Kotecha">Adam Fielding</actor>
+			<actor role="Sandy Thomas">Freddie Jones</actor>
+			<actor role="Edna Birch">Shirley Stelfox</actor>
+			<actor>Cameron McAllister</actor>
+			<producer>Kate Oates</producer>
+			<producer>John Whiston</producer>
+		</credits>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Drama</category>
+		<episode-num system="xmltv_ns">28 . 27/300 .</episode-num>
+		<episode-num system="onscreen">Del 28 av 300 säsong 29</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015124500 +0200" stop="20151015140000 +0200">
+		<title lang="sv">Holby city</title>
+		<sub-title lang="sv">A Heart Man</sub-title>
+		<desc lang="sv">Raf kämpar med att hålla privat- och yrkesliv åtskilda. Elliots karriär är i fara. Jac gör allt för att skydda sina intressen.</desc>
+		<credits>
+			<actor>Thusita Jayasundera</actor>
+			<actor>Anna Mountford</actor>
+			<actor>Denis Lawson</actor>
+			<actor>Siobhan Redmond</actor>
+			<actor>Michael French</actor>
+			<actor>Amanda Mealin</actor>
+			<actor>Adrian Lewis Morgan</actor>
+			<actor>Robert Powell</actor>
+			<actor>Steven Webb</actor>
+			<actor>Jeremy Edwards</actor>
+			<actor>Patricia Potter</actor>
+			<actor>Sharon Maughan</actor>
+			<actor>Jan Pearson</actor>
+			<actor>David Paisley</actor>
+			<actor>Jeremy Sheffield</actor>
+			<actor>George Irving</actor>
+			<actor>Laura Sadler</actor>
+			<producer>Darren Guthrie</producer>
+		</credits>
+		<date>1999</date>
+		<category lang="en">series</category>
+		<category lang="en">Soap</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=77235&amp;seasonid=563563&amp;id=4939012&amp;lid=8</url>
+		<episode-num system="thetvdb.com">series/77235</episode-num>
+		<episode-num system="xmltv_ns">15 . 40 .</episode-num>
+		<episode-num system="onscreen">Del 41 säsong 16</episode-num>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015140000 +0200" stop="20151015145500 +0200">
+		<title lang="sv">Renées brygga</title>
+		<desc lang="sv">Renée gästas av Barbro &quot;Lill-Babs&quot; Svensson, Tommy Körberg och Sanna Lundell. De pratar bland annat om internetdejting, skandalrubriker och om att leva i medberoende. Sanna avslöjar fördelarna med att leva som särbo och Tommy avrundar middagen på ett oförglömligt sätt.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Entertainment</category>
+		<episode-num system="xmltv_ns">0 . 5/6 .</episode-num>
+		<episode-num system="onscreen">Del 6 av 6 säsong 1</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015145500 +0200" stop="20151015152500 +0200">
+		<title lang="sv">Halv åtta hos mig</title>
+		<desc lang="sv">Tredje värden ut i Göteborg är Marcus. Han bjuder på avokadotartar med löjrom, gurka och rostade pinjenötter, portermarinerad hjortstek med svamprisotto och till efterrätt crema catalana.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Cooking</category>
+		<episode-num system="xmltv_ns">13 . 34/36 .</episode-num>
+		<episode-num system="onscreen">Del 35 av 36 säsong 14</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015152500 +0200" stop="20151015155500 +0200">
+		<title lang="sv">Halv åtta hos mig</title>
+		<desc lang="sv">Det är dags för finalen i Göteborg som hålls hemma hos Alina. Hon bjuder på gammaldags blinier, en rysk köttgryta som serveras med bovete och slutligen rysk honungs- och valnötstårta. Efter måltiden avslöjas vem som kammar hem veckans vinst.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Cooking</category>
+		<episode-num system="xmltv_ns">13 . 35/36 .</episode-num>
+		<episode-num system="onscreen">Del 36 av 36 säsong 14</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015155500 +0200" stop="20151015170000 +0200">
+		<title lang="sv">Husjägarna - Australien</title>
+		<desc lang="sv">Dana och Kev har två små pojkar och bor hemma hos Danas föräldrar samtidigt som de letar efter ett hus i Adelaide. Nu får de hjälp av Veronica och Morgan.</desc>
+		<date>2012</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<episode-num system="xmltv_ns">0 . 1/10 .</episode-num>
+		<episode-num system="onscreen">Del 2 av 10 säsong 1</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015170000 +0200" stop="20151015175500 +0200">
+		<title lang="sv">Äntligen hemma</title>
+		<desc lang="sv">Jimmy Schönning tar sig an hallen hos en barn- och hundfamilj. Bland annat förenar han praktisk förvaring med nya färger och en lampa som Jimmy bygger själv. Björn Christiernsson hjälper Jimmy att bygga en möbel som kombinerar en datorplats med förvaring- och sittbänk. Karin Mannerstål bidrar också till att förgylla hallen när hon screentrycker kuddar med olika motiv i guld. Martin Timell ordnar ett köksgolv.</desc>
+		<date>2011</date>
+		<category lang="en">series</category>
+		<category lang="en">Lifestyle</category>
+		<episode-num system="xmltv_ns">14 . 7/10 .</episode-num>
+		<episode-num system="onscreen">Del 8 av 10 säsong 15</episode-num>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015175500 +0200" stop="20151015185000 +0200">
+		<title lang="sv">Vardagspuls</title>
+		<desc lang="sv">Läkaren Viveca Gyberg pratar om virus och infektioner och vad man kan göra för att hålla sig frisk. Den amerikanska artisten Demi Lovato berättar om sin bipolära sjukdom. Tommy Myllymäki bjuder på en enkel trerättersmeny.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Lifestyle</category>
+		<episode-num system="xmltv_ns">1 . 38/83 .</episode-num>
+		<episode-num system="onscreen">Del 39 av 83 säsong 2</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015185000 +0200" stop="20151015190000 +0200">
+		<title lang="sv">Keno</title>
+		<desc lang="sv">Redovisning av dagens Kenodragning.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Series</category>
+		<episode-num system="xmltv_ns">2014 . 42/120 .</episode-num>
+		<episode-num system="onscreen">Del 43 av 120 säsong 2015</episode-num>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015190000 +0200" stop="20151015191500 +0200">
+		<title lang="sv">Nyheterna</title>
+		<desc lang="sv">Nyheter från TV4. Varje nyhetssändning profileras av ett huvudankare. Anna Lindmarker, Anders Kraft eller Ulrika Nilsson leder TV4Nyheterna klockan 19.00 under vardagar och helger.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">News</category>
+		<episode-num system="xmltv_ns">2014 . 136/189 .</episode-num>
+		<episode-num system="onscreen">Del 137 av 189 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015191500 +0200" stop="20151015192000 +0200">
+		<title lang="sv">Sporten</title>
+		<desc lang="sv">Sportnyheter.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Sports</category>
+		<episode-num system="xmltv_ns">2014 . 136/189 .</episode-num>
+		<episode-num system="onscreen">Del 137 av 189 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015192000 +0200" stop="20151015193000 +0200">
+		<title lang="sv">Vädret</title>
+		<desc lang="sv">Väderprognos.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">News</category>
+		<episode-num system="xmltv_ns">2014 . 136/249 .</episode-num>
+		<episode-num system="onscreen">Del 137 av 249 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015193000 +0200" stop="20151015200000 +0200">
+		<title lang="sv">Halv åtta hos mig</title>
+		<desc lang="sv">Finalen i Boden hålls hemma hos Christer. Han bjuder på toast med gravad älg och ananas och boeuf bourguignon med rostade rotsaker och till efterrätt vaniljglass med hjortronsås. Efter måltiden avslöjas vem av de fyra i Boden som kammar hem veckans vinst.</desc>
+		<date>2014</date>
+		<category lang="en">series</category>
+		<category lang="en">Cooking</category>
+		<episode-num system="xmltv_ns">14 . 35/64 .</episode-num>
+		<episode-num system="onscreen">Del 36 av 64 säsong 15</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015200000 +0200" stop="20151015210000 +0200">
+		<title lang="sv">Bytt är bytt</title>
+		<desc lang="sv">Tävlande är jurymedlemmarna i Let's dance Tony Irving och Ann Wilson. De kämpar hårt med att lista ut vilket föremål som är dyrast, frågan är om det är en ölskopa, en rubinring eller ett placeringskort från Titanic. Vinstsumman kommer de att skänka till välgörenhet.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Entertainment</category>
+		<episode-num system="xmltv_ns">1 . 3/10 .</episode-num>
+		<episode-num system="onscreen">Del 4 av 10 säsong 2</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015210000 +0200" stop="20151015220000 +0200">
+		<title lang="sv">Brottsplats Sverige</title>
+		<sub-title lang="sv">Sommarmorder-1969</sub-title>
+		<desc lang="sv">Dagens program tittar närmare på nya uppgifter om mordet på en 16-åring pojke i Bromma. En åttaåring hittades bunden på en skolgård i Västervik. Polisen i Sundsvall jagar Rififiliga och går nu ut med bilder. En artist har utsatts för hatbrott.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Documentary</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=249996&amp;seasonid=469199&amp;id=4127513&amp;lid=8</url>
+		<episode-num system="thetvdb.com">series/249996</episode-num>
+		<episode-num system="xmltv_ns">0 . 3 .</episode-num>
+		<episode-num system="onscreen">Del 4 säsong 1</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015220000 +0200" stop="20151015221000 +0200">
+		<title lang="sv">Nyheterna</title>
+		<desc lang="sv">Nyheter från TV4 med Bengt Magnusson som huvudankare. Maud Bernhagen presenterar Sporten och Rafaela Lindeberg leder Ekonominyheterna.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">News</category>
+		<episode-num system="xmltv_ns">2014 . 128/168 .</episode-num>
+		<episode-num system="onscreen">Del 129 av 168 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015221000 +0200" stop="20151015223000 +0200">
+		<title lang="sv">Nyheterna</title>
+		<desc lang="sv">Nyheter från TV4 med Bengt Magnusson som huvudankare. Maud Bernhagen presenterar Sporten och Rafaela Lindeberg leder Ekonominyheterna.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">News</category>
+		<episode-num system="xmltv_ns">2014 . 128/168 .</episode-num>
+		<episode-num system="onscreen">Del 129 av 168 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015223000 +0200" stop="20151015223500 +0200">
+		<title lang="sv">Ekonominyheterna</title>
+		<desc lang="sv">Ekonominyheter.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">News</category>
+		<episode-num system="xmltv_ns">2014 . 128/168 .</episode-num>
+		<episode-num system="onscreen">Del 129 av 168 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015223500 +0200" stop="20151015225000 +0200">
+		<title lang="sv">Sporten</title>
+		<desc lang="sv">Sportnyheter.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Sports</category>
+		<episode-num system="xmltv_ns">2014 . 128/168 .</episode-num>
+		<episode-num system="onscreen">Del 129 av 168 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015225000 +0200" stop="20151015230000 +0200">
+		<title lang="sv">TV4Väder och nyheter</title>
+		<desc lang="sv">Väderprognos och nyhetsuppdatering.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">News</category>
+		<episode-num system="xmltv_ns">2014 . 128/168 .</episode-num>
+		<episode-num system="onscreen">Del 129 av 168 säsong 2015</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151015230000 +0200" stop="20151016000000 +0200">
+		<title lang="sv">Jenny Strömstedt</title>
+		<desc lang="sv">Säsongsstart.</desc>
+		<date>2015</date>
+		<category lang="en">series</category>
+		<category lang="en">Series</category>
+		<episode-num system="xmltv_ns">4 . 0/8 .</episode-num>
+		<episode-num system="onscreen">Del 1 av 8 säsong 5</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151016000000 +0200" stop="20151016005500 +0200">
+		<title lang="sv">Elementary</title>
+		<sub-title lang="sv">Solve for X</sub-title>
+		<desc lang="sv">Sherlock och Watson undersöker mordet på en matematiker vars väggar är målade med en komplicerad formel. De får hjälp av professor Tanya att tyda formeln och hon pekar ut en trolig misstänkt. Fallet tar en ny vändning när den misstänkte blir mördad. Watson ställs inför ett dilemma när sonen till en patient som dog under en operation vill låna pengar av henne.</desc>
+		<credits>
+			<director>Jerry Levine</director>
+			<actor role="Captain Thomas Gregson">Aidan Quinn</actor>
+			<actor role="Sherlock Holmes">Jonny Lee Miller</actor>
+			<actor role="Dr. Joan Watson">Lucy Liu</actor>
+			<actor role="Detective Marcus Bell">Jon Michael Hill</actor>
+			<actor>Lynn Collins</actor>
+			<actor>Jeremy Jordan</actor>
+			<actor>Glenn Fitzgerald</actor>
+			<actor>Rich Sommer</actor>
+			<actor>Khalil Kain</actor>
+			<actor>Richard Holmes</actor>
+			<writer>Jeffrey Paul King</writer>
+		</credits>
+		<date>2012</date>
+		<category lang="en">series</category>
+		<category lang="en">Drama</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=255316&amp;seasonid=522810&amp;id=4611210&amp;lid=8</url>
+		<episode-num system="thetvdb.com">series/255316</episode-num>
+		<episode-num system="xmltv_ns">1 . 1 .</episode-num>
+		<episode-num system="onscreen">Del 2 säsong 2</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+		<star-rating>
+			<value>6.7 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151016005500 +0200" stop="20151016014500 +0200">
+		<title lang="sv">Blue bloods</title>
+		<sub-title lang="sv">Under the Gun</sub-title>
+		<desc lang="sv">Danny och Baez undersöker morden på tre välkända personer i staden som verkar ha fallit offer för hatbrott. Efter att Linda blivit rånad bestämmer hon sig för att bära vapen trots Dannys protester.</desc>
+		<credits>
+			<director>David Barrett</director>
+			<actor role="Nicky Reagan-Boyle">Sami Gayle</actor>
+			<actor role="Erin Reagan Boyle">Bridget Moynahan</actor>
+			<actor role="Jackie Curatola">Jennifer Esposito</actor>
+			<actor role="Jamie Reagan">Will Estes</actor>
+			<actor role="Frank Reagan">Tom Selleck</actor>
+			<actor role="Sgt. Anthony Renzulli">Nicholas Turturro</actor>
+			<actor role="Det. Maria Baez">Marisa Ramirez</actor>
+			<actor role="Danny Reagan">Donnie Wahlberg</actor>
+			<actor role="Linda Reagan">Amy Carlson</actor>
+			<actor role="Eddie Janko">Vanessa Ray</actor>
+			<actor role="Henry Reagan">Len Cariou</actor>
+			<actor>Gregory Jbara</actor>
+			<actor>Robert Clohessy</actor>
+			<actor>James Lesure</actor>
+			<actor>Jasmine Carmichael</actor>
+			<actor>Abigail Hawk</actor>
+			<actor>Andrew Terraciano</actor>
+			<actor>Tony Terraciano</actor>
+			<actor>Craig muMs Grant</actor>
+			<actor>Andrew Polk</actor>
+			<actor>Victor Garber</actor>
+			<actor>Carra Patterson</actor>
+			<writer>Willie Reale</writer>
+			<writer>Kevin Wade</writer>
+		</credits>
+		<date>2010</date>
+		<category lang="en">series</category>
+		<category lang="en">Drama</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=164981&amp;seasonid=589468&amp;id=5042102&amp;lid=8</url>
+		<episode-num system="thetvdb.com">series/164981</episode-num>
+		<episode-num system="xmltv_ns">4 . 8 .</episode-num>
+		<episode-num system="onscreen">Del 9 säsong 5</episode-num>
+		<video>
+			<quality>HDTV</quality>
+		</video>
+		<star-rating>
+			<value>7.2 / 9</value>
+		</star-rating>
+	</programme>
+	<programme channel="hd.tv4.se" start="20151016014500 +0200" stop="20151016024500 +0200">
+		<title lang="sv">Scott and Bailey</title>
+		<sub-title lang="sv">Episode 1</sub-title>
+		<desc lang="sv">Säsongsstart.</desc>
+		<credits>
+			<director>Morag Fullarton</director>
+			<actor role="Alison Bailey">Sally Lindsay</actor>
+			<actor role="DCI Gill Murray">Amelia Bullmore</actor>
+			<actor role="DC Janet Scott">Lesley Sharp</actor>
+			<actor role="Adrian Scott">Tony Pitts</actor>
+			<actor role="Nick Savage">Rupert Graves</actor>
+			<actor role="DC Rachel Bailey">Suranne Jones</actor>
+			<writer>Sally Wainwright</writer>
+		</credits>
+		<date>2011</date>
+		<category lang="en">series</category>
+		<category lang="en">Drama</category>
+		<url>http://thetvdb.com/?tab=episode&amp;seriesid=249128&amp;seasonid=515938&amp;id=4533537&amp;lid=8</url>
+		<episode-num system="thetvdb.com">series/249128</episode-num>
+		<episode-num system="xmltv_ns">2 . 0 .</episode-num>
+		<episode-num system="onscreen">Del 1 säsong 3</episode-num>
+	</programme>
+</tv>
+
