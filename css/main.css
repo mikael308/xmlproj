@@ -17,7 +17,7 @@ body {
 }
 
 header {
-
+	padding-top:50px;
 }
 
 main {
@@ -44,11 +44,11 @@ article {
  	clear: both;
 }
 .article-content {
-	margin-left: 50px;
+	margin-left: 30px;
 }
 
 .channel {
-	max-width: 50%;
+	max-width: 45%;
 	float:left;
 	margin-bottom: 60px;
 }
@@ -63,19 +63,36 @@ article {
 	box-shadow: 0px 0px 10px #000000;
 	border-style: outset;
 	border-radius: 10px;
-	padding: 10px 10px 30px;
+	padding: 10px 10px 20px;
 	margin: 10px;
-	background-color:hsla(58, 76%, 68%, 0.40);
+	background-color:hsla(58, 40%, 80%, 1);
 }
 
+.programme legend .premiere {
+	background-color: red;
+	box-shadow: 0px 0px 10px red;
+	border-radius: 30px;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg);
+	padding:10px 10px;
+	display:inline;
+	float:left;
+}
 
-.programme legend{
+.programme legend .timespan {
 	font-size:110%;
 	padding: 3px 10px;
+	margin-left:70%;
+	margin-bottom: 15px;
 	border: solid  1px black;
 	border-radius:20px;
 	background-color:hsla(58, 76%, 68%, 0.90);
 	
+}
+.programme .programme-header {
+	margin-top: -25px;
+
 }
 
 .programme .programme-content {
@@ -83,10 +100,20 @@ article {
 }
 .programme .title {
 	font-weight: bold;
-	margin-bottom: 0;
+	display:inline;
+}
+.programme .previously-shown {
+	color:gray;
+	font-style: italic;
+	font-size:90%;
+	display:inline;
+}
+.programme .star-rating {
+	display:inline;
+
 }
 .programme .sub-title {
-	margin-top: 0;
+
 	
 }
 .programme .category {
@@ -101,7 +128,7 @@ article {
 }
 
 .programme .creditlabel {
-	
+	color: gray;
 	margin-right:20px;
 }
 
@@ -109,3 +136,4 @@ article {
 	display: inline;
 	margin-right: 18px;
 }
+

@@ -24,6 +24,13 @@
 	<xsl:template name="tHeader">
 		<header>
 			<h1>TV-guide</h1>
+
+			<div class="date">
+				<xsl:value-of select="date/@year" />-<xsl:value-of select="date/@month" />-<xsl:value-of select="date/@day" />
+			</div>
+			<div class="date">
+				<xsl:value-of select="date[last()]/@year" />-<xsl:value-of select="date[last()]/@month" />-<xsl:value-of select="date[last()]/@day" />
+			</div>
 			<hr />
 		</header>
 	</xsl:template>
@@ -79,14 +86,25 @@
 	<xsl:template name="tProgramme" match="programme">
 		<fieldset class="programme">
 			
-			<legend><xsl:value-of select="substring(@starttime, 9, 2)" />:<xsl:value-of select="substring(@starttime, 11, 2)" /> - <xsl:value-of select="substring(@stoptime, 9, 2)" />:<xsl:value-of select="substring(@stoptime, 11, 2)" /></legend>
+			<legend>
+				<xsl:if test="premiere">
+					<div class="premiere">premiere</div>
+				</xsl:if>
+				<div class="timespan">
+					<xsl:value-of select="substring(@starttime, 9, 2)" />:<xsl:value-of select="substring(@starttime, 11, 2)" /> - <xsl:value-of select="substring(@stoptime, 9, 2)" />:<xsl:value-of select="substring(@stoptime, 11, 2)" />
+				</div>
+			</legend>
 
 			<div class="programme-header">
 				<div class="title"><xsl:value-of select="title" /></div>
+				<xsl:if test="previously-shown"><div class="previously-shown"> (repris)</div></xsl:if>
 				<div class="subtitle"><xsl:value-of select="sub-title" /></div>
 			</div>
 
 			<div class="programme-content">
+				<xsl:if test="star-rating">
+					<div class="rating">rating: <xsl:value-of select="star-rating" /></div>
+				</xsl:if>
 				<xsl:for-each select="category">
 					<div class="category"><xsl:value-of select="." /> </div>
 				</xsl:for-each>
