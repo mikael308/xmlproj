@@ -41,10 +41,10 @@
 		<date year="{$year}" month="{$month}" day="{$day}">
 
 			<xsl:for-each select="//xmltv/channels/channel">
-				<xsl:variable name="xmltvdata-file" select="concat('./xmltvdata/', ., '_', $year, '-', $month, '-', $day, '.xml')" />	
+				<xsl:variable name="xmltvdata-path" select="concat('./xmltvdata/', ., '_', $year, '-', $month, '-', $day, '.xml')" />	
 
 				<xsl:call-template name="tChannel">
-					<xsl:with-param name="xmltvdata-file" select="document($xmltvdata-file)" />
+					<xsl:with-param name="xmltvdata-path" select="$xmltvdata-path" />
 				</xsl:call-template> <!-- tChannel -->
 
 			</xsl:for-each><!-- channel -->
@@ -55,9 +55,11 @@
 
 
 	<xsl:template name="tChannel" >
-		<xsl:param name="xmltvdata-file" />
+		<xsl:param name="xmltvdata-path" />
 
-		<channel name="{($xmltvdata-file)/tv/programme/@channel}" logo-src="{@logo-src}" >
+		<xsl:variable name="xmltvdata-file" select="document($xmltvdata-path)" />
+
+		<channel name="{$xmltvdata-file/tv/programme/@channel}" logo-src="{@logo-src}" >
 			<xsl:for-each select="$xmltvdata-file/tv/programme">
 				<xsl:sort select="@starttime" order="ascending" />
 
@@ -66,6 +68,7 @@
 			</xsl:for-each> <!-- programme -->
 
 		</channel>
+	
 	</xsl:template><!-- tChannel -->
 
 
