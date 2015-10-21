@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type="text/xsl" href="tvguide-stylesheet.xsl" ?>
 
-<xmltv>
+<xmltv
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="tvguide-template.xsd"
+	>
 	<channels>
 		<channel logo-src="./img/logo/world.discoveryworld.se.png">hdshowcase.discoverychannel.com</channel>
 		<channel logo-src="./img/logo/tv4.se.png">hd.tv4.se</channel>
