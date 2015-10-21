@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+	<!-- def simple elements -->
+	<xs:element name="date" type="ctDate" />
+
+	<!-- def SIMPLE TYPES -->
+	<xs:simpleType name="alphaRestriction">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- def ATTRIBUTES -->
+	<xs:attribute name="year"  type="xs:integer" />
+	<xs:attribute name="month" type="xs:integer" />
+	<xs:attribute name="day"   type="xs:integer" />
+
+	<!-- def COMPLEX TYPES -->
+	<xs:complexType name="ctDate">
+		<xs:attribute ref="year"  use="required" />
+		<xs:attribute ref="month" use="required" />
+		<xs:attribute ref="day"   use="required" />
+	</xs:complexType>
+	<xs:complexType name="ctChannel">
+		<xs:simpleContent>
+			<xs:extension base="alphaRestriction">
+				<xs:attribute name="logo-src" type="xs:string" use="optional" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<!-- def COMPLEX ELEMENTS -->
+	<xs:element name="channels">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element name="channel" type="ctChannel" minOccurs="1" maxOccurs="unbounded" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="dates">
+		<xs:complexType>
+			<xs:choice>
+				<xs:element ref="date" minOccurs="1" maxOccurs="unbounded" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+
+	<!-- ROOT ELEMENT -->
+	<xs:element name="xmltv">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="channels" />
+				<xs:element name="dates" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>
