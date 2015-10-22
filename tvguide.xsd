@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+
+
+
+	<!-- def SIMPLE TYPES -->
+	<xs:simpleType name="alphaRestriction">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- def ATTRIBUTES -->
+	<xs:attribute name="year"  type="xs:integer" />
+	<xs:attribute name="month" type="xs:integer" />
+	<xs:attribute name="day"   type="xs:integer" />
+	<xs:attribute name="lang"  type="xs:string"  />
+
+	<!-- def COMPLEX TYPES -->
+	<xs:complexType name="ctDate">
+		<xs:attribute ref="year"   use="required" />
+		<xs:attribute ref="month"  use="required" />
+		<xs:attribute ref="day"    use="required" />
+	</xs:complexType>
+	
+	<xs:complexType name="ctLang">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute ref="lang" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+
+
+
+	<!-- def ELEMENTS -->
+	<xs:element name="date" >
+		<xs:complexType>
+			<xs:complexContent>
+					<xs:extension base="ctDate" >
+						<xs:sequence>
+							<xs:element ref="channel" minOccurs="1" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="channel" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="programme" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="name" type="alphaRestriction" />
+			<xs:attribute name="logo-src" type="alphaRestriction" />
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="programme">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="title" type="ctLang" minOccurs="1" maxOccurs="unbounded" />
+				<xs:element name="sub-title" type="ctLang" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attribute name="starttime" type="xs:string" />
+			<xs:attribute name="stoptime" type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+
+
+	<!-- ROOT ELEMENT -->
+	<xs:element name="tvguide">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="date" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+
+</xs:schema>
