@@ -11,6 +11,11 @@
 				<xsl:text>type="text/xsl" href="tvguide-html.xsl"</xsl:text>
 		</xsl:processing-instruction>
 
+		<xsl:processing-instruction name="xml-stylesheet">
+				<xsl:text>type="text/xsl" href="tvguide.xsd"</xsl:text>
+		</xsl:processing-instruction>
+		
+
 		<tvguide>
 			<xsl:for-each select="dates/date">
 				<xsl:sort select="@year"   date-type="number" order="ascending" />
