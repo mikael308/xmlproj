@@ -17,6 +17,10 @@ elementFormDefault="qualified">
 	<xs:attribute name="month" type="xs:integer" />
 	<xs:attribute name="day"   type="xs:integer" />
 	<xs:attribute name="lang"  type="xs:string"  />
+	<xs:attribute name="starttime" type="xs:string" />
+	<xs:attribute name="stoptime" type="xs:string" />
+	<xs:attribute name="name" type="alphaRestriction" />
+	<xs:attribute name="logo-src" type="alphaRestriction" />
 
 	<!-- def COMPLEX TYPES -->
 	<xs:complexType name="ctDate">
@@ -24,7 +28,7 @@ elementFormDefault="qualified">
 		<xs:attribute ref="month"  use="required" />
 		<xs:attribute ref="day"    use="required" />
 	</xs:complexType>
-	
+
 	<xs:complexType name="ctLang">
 		<xs:simpleContent>
 			<xs:extension base="xs:string">
@@ -54,8 +58,8 @@ elementFormDefault="qualified">
 			<xs:sequence>
 				<xs:element ref="programme" minOccurs="1" maxOccurs="unbounded" />
 			</xs:sequence>
-			<xs:attribute name="name" type="alphaRestriction" />
-			<xs:attribute name="logo-src" type="alphaRestriction" />
+			<xs:attribute ref="name" use="required" />
+			<xs:attribute ref="logo-src" use="optional" />
 		</xs:complexType>
 	</xs:element>
 
@@ -65,8 +69,8 @@ elementFormDefault="qualified">
 				<xs:element name="title" type="ctLang" minOccurs="1" maxOccurs="unbounded" />
 				<xs:element name="sub-title" type="ctLang" minOccurs="0" maxOccurs="unbounded" />
 			</xs:sequence>
-			<xs:attribute name="starttime" type="xs:string" />
-			<xs:attribute name="stoptime" type="xs:string" />
+			<xs:attribute ref="starttime" use="required" />
+			<xs:attribute ref="stoptime" use="required" />
 		</xs:complexType>
 	</xs:element>
 
