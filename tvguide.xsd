@@ -55,7 +55,13 @@ elementFormDefault="qualified">
 	<xs:element name="prod-date"    type="xs:integer" />
 	<xs:element name="category"     type="ctLang" />
 	<xs:element name="episode-num"  type="ctLang" />
-	<xs:element name="star-rating"  type="xs:string" />
+	<xs:element name="star-rating" >
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="value" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="director"     type="xs:string" />
 	<xs:element name="actor"        type="ctRole" />
 	<xs:element name="writer"       type="xs:string" />
