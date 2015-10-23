@@ -82,10 +82,10 @@ article {
 } -->
 
 .programme legend .timespan {
-	font-size:110%;
+	font-size:90%;
 	padding: 3px 10px;
-	margin-left:70%;
-	margin-bottom: 15px;
+	margin-left:60%;
+	margin-bottom: 16px;
 	border: solid  1px black;
 	border-radius:20px;
 	background-color:hsla(58, 76%, 68%, 0.90);
@@ -139,13 +139,18 @@ article {
 .programme .creditlabel {
 	color: gray;
 	display: inline;
-	margin-right:35px;
+	margin-right: 35px;
+
 }
+
+
 
 .programme .creditee {
 	display: inline;
 	margin-right: 18px;
+
 }
+
 
 .programme .credit-section {
 	display:block;
