@@ -26,12 +26,10 @@
 					<xsl:with-param name="year"   select="@year" />
 					<xsl:with-param name="month"  select="@month" />
 					<xsl:with-param name="day"    select="@day" />
-
 				</xsl:call-template>
 
 			</xsl:for-each><!-- date -->
 		
-			
 		</tvguide>
 	</xsl:template><!-- tRoot -->
 
