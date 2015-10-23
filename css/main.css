@@ -44,7 +44,7 @@ article {
  	clear: both;
 }
 .article-content {
-	margin-left: 30px;
+	margin-left: 20px;
 }
 
 .channel {
@@ -53,7 +53,7 @@ article {
 	margin-bottom: 60px;
 }
 .channel-content {
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 
@@ -67,7 +67,7 @@ article {
 	margin: 10px;
 	background-color:hsla(58, 40%, 80%, 1);
 }
-
+<!--
 .programme legend .premiere {
 	background-color: red;
 	font-size: 80%;
@@ -79,7 +79,7 @@ article {
 	padding:10px 10px;
 	display:inline;
 	float:left;
-}
+} -->
 
 .programme legend .timespan {
 	font-size:110%;
@@ -101,7 +101,14 @@ article {
 }
 .programme .title {
 	font-weight: bold;
+
 	display:inline;
+}
+.programme .prod-date {
+	font-weight: bold;
+	font-size: 90%;
+	display:inline;
+	margin-left: 3px;
 }
 .programme .after-title {
 	color:gray;
