@@ -70,11 +70,12 @@ article {
 
 .programme legend .premiere {
 	background-color: red;
+	font-size: 80%;
 	box-shadow: 0px 0px 10px red;
 	border-radius: 30px;
     -ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Safari */
-    transform: rotate(-10deg);
+    transform: rotate(-06deg);
 	padding:10px 10px;
 	display:inline;
 	float:left;
@@ -102,7 +103,7 @@ article {
 	font-weight: bold;
 	display:inline;
 }
-.programme .previously-shown {
+.programme .after-title {
 	color:gray;
 	font-style: italic;
 	font-size:90%;
@@ -121,6 +122,7 @@ article {
 	margin-right: 10px;
 	color:gray;
 	font-style: italic;
+	font-size:90%;
 }
 
 .programme .desc {
@@ -129,11 +131,17 @@ article {
 
 .programme .creditlabel {
 	color: gray;
-	margin-right:20px;
+	display: inline;
+	margin-right:35px;
 }
 
 .programme .creditee {
 	display: inline;
 	margin-right: 18px;
 }
+
+.programme .credit-section {
+	display:block;
+}
+
 
