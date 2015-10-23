@@ -3,8 +3,6 @@
 	<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
 
-
-
 	<xsl:template name="tRoot" match="/xmltv" >
 		<!-- add stylesheet declaration-->
 		<xsl:processing-instruction name="xml-stylesheet">
@@ -14,7 +12,7 @@
 
 		<tvguide
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-			xsi:schemaLocation="tvguide.xsd" >
+			xsi:schemaLocation="tvguide tvguide.xsd" >
 			<xsl:for-each select="dates/date">
 				<xsl:sort select="@year"   date-type="number" order="ascending" />
 				<xsl:sort select="@month"  date-type="number" order="ascending" />
@@ -48,7 +46,7 @@
 					<xsl:with-param name="xmltvdata-path" select="$xmltvdata-path" />
 				</xsl:call-template> <!-- tChannel -->
 
-			</xsl:for-each><!-- channel -->
+			</xsl:for-each> <!-- channel -->
 
 		</date>
 	</xsl:template> <!-- tDate -->
@@ -90,27 +88,27 @@
 		<xsl:attribute name="role"><xsl:value-of select="./@role" /></xsl:attribute>
 	</xsl:attribute-set>
 
-	<xsl:template  match="credits">
+	<xsl:template name="tCredits" >
+		<xsl:if test="credits">	
+			<credits>
+				<xsl:for-each select="credits/director | credits/actor | credits/writer">
+					<xsl:choose>
+						<xsl:when test="@role" >
+							<xsl:element name="{name(.)}" use-attribute-sets="attrsRole">
+								<xsl:value-of select="." />
+							</xsl:element>
+						</xsl:when>
+						<xsl:otherwise>
+							<xsl:element name="{name(.)}">
+								<xsl:value-of select="." />
+							</xsl:element>
 
-		<credits>
-			<xsl:for-each select="./*">
-				<xsl:choose>
-					<xsl:when test="@role" >
-						<xsl:element name="{name(.)}" use-attribute-sets="attrsRole">
-							<xsl:value-of select="." />
-						</xsl:element>
-					</xsl:when>
-					<xsl:otherwise>
-						<xsl:element name="{name(.)}">
-							<xsl:value-of select="." />
-						</xsl:element>
+						</xsl:otherwise>
+					</xsl:choose>
 
-					</xsl:otherwise>
-				</xsl:choose>
-
-			</xsl:for-each> 
-		</credits>
-
+				</xsl:for-each> 
+			</credits>
+		</xsl:if>
 
 	</xsl:template>
 
