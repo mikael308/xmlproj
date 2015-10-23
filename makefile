@@ -1,6 +1,6 @@
-CC		= xsltproc
+CC_XSL		= xsltproc
 TEMPLATE	= tvguide-template.xml
-OUTPUT		= tvguide.xml
+OUT		= tvguide.xml
 OBJS		= tvguide
 E_C		= @echo "compiling " $@
 
@@ -11,8 +11,8 @@ all: $(OBJS)
 
 tvguide:
 	$(E_C)
-	$(CC) $(TEMPLATE) > $(OUTPUT)
+	$(CC_XSL) $(TEMPLATE) > $(OUT)
 
 clean: 
-	rm $(OUTPUT) 
+	rm $(OUT) 
 
