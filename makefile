@@ -10,6 +10,7 @@ all: $(OBJS)
 	$(E_C)
 
 tvguide:
+	$(E_C)
 	$(CC) $(TEMPLATE) > $(OUTPUT)
 
 clean: 
