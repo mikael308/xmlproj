@@ -12,3 +12,5 @@ TODO
 6. fixa screen cast
 
 7. översätt xpath till xquery
+
+8. i tvguide-html transf programmes childs enskilda, få detta bättre
