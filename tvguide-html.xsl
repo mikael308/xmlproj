@@ -87,9 +87,7 @@
 		<fieldset class="programme">
 			
 			<legend>
-				<xsl:if test="premiere">
-					<div class="premiere"><xsl:value-of select="premiere" /></div>
-				</xsl:if>
+
 				<div class="timespan">
 					<xsl:value-of select="substring(@starttime, 9, 2)" />:<xsl:value-of select="substring(@starttime, 11, 2)" /> - <xsl:value-of select="substring(@stoptime, 9, 2)" />:<xsl:value-of select="substring(@stoptime, 11, 2)" />
 				</div>
@@ -97,7 +95,12 @@
 
 			<div class="programme-header">
 				<div class="title"><xsl:value-of select="title" /></div>
-				<xsl:if test="previously-shown"><div class="after-title"> (repris)</div></xsl:if>
+				<xsl:if test="prod-date">
+					<div class="prod-date">(<xsl:value-of select="prod-date" />)</div>
+				</xsl:if>
+				<xsl:if test="previously-shown">
+					<div class="after-title"> (repris)</div>
+				</xsl:if>
 				<xsl:if test="premiere">
 					<div class="after-title"><xsl:value-of select="premiere" /></div>
 				</xsl:if>
