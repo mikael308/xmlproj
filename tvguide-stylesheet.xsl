@@ -75,7 +75,45 @@
 	<xsl:template name="tProgramme">
 		<programme starttime="{@start}" stoptime="{@stop}">
 	
-			<xsl:apply-templates />
+			<xsl:if test="title">
+				<title lang="{title/@lang}" ><xsl:value-of select="title"/></title>
+			</xsl:if>
+			<xsl:if test="sub-title">
+				<sub-title lang="{sub-title/@lang}"><xsl:value-of select="sub-title" /></sub-title>
+			</xsl:if>
+			<xsl:if test="desc">
+				<desc lang="{desc/@lang}"><xsl:value-of select="desc" /></desc>
+			</xsl:if>
+			<xsl:call-template name="tCredits" />
+			<xsl:if test="prod-date">
+				<prod-date><xsl:value-of select="prod-date" /></prod-date>
+			</xsl:if>
+			<xsl:if test="date">
+				<prod-date><xsl:value-of select="date" /></prod-date>
+			</xsl:if>
+			<xsl:for-each select="category">
+				<category lang="{./@lang}"><xsl:value-of select="." /></category>
+			</xsl:for-each>	
+			
+			<xsl:for-each select="episode-num" >
+				<xsl:if test="./@system = onscreen">
+					<episode-num><xsl:value-of select="." /></episode-num>
+				</xsl:if>
+			</xsl:for-each>
+			<xsl:if test="previously-shown">
+				<xsl:choose>
+					<xsl:when test="previously-shown/@start">
+						<previously-shown start="previously-shown/@start" ><xsl:value-of select="previously-shown" /></previously-shown>
+					</xsl:when>
+					<xsl:otherwise>
+						<previously-shown><xsl:value-of select="previously-shown" /></previously-shown>
+					</xsl:otherwise>
+				</xsl:choose>
+				</xsl:if>
+			
+			<xsl:if test="star-rating">
+				<star-rating><value><xsl:value-of select="star-rating/value" /></value></star-rating>
+			</xsl:if>
 
 		</programme>
 
