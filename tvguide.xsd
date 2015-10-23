@@ -13,14 +13,15 @@ elementFormDefault="qualified">
 	</xs:simpleType>
 
 	<!-- def ATTRIBUTES -->
-	<xs:attribute name="year"  type="xs:integer" />
-	<xs:attribute name="month" type="xs:integer" />
-	<xs:attribute name="day"   type="xs:integer" />
-	<xs:attribute name="lang"  type="xs:string"  />
-	<xs:attribute name="starttime" type="xs:string" />
-	<xs:attribute name="stoptime" type="xs:string" />
-	<xs:attribute name="name" type="alphaRestriction" />
-	<xs:attribute name="logo-src" type="alphaRestriction" />
+	<xs:attribute name="year"        type="xs:integer" />
+	<xs:attribute name="month"       type="xs:integer" />
+	<xs:attribute name="day"         type="xs:integer" />
+	<xs:attribute name="lang"        type="xs:string"  />
+	<xs:attribute name="starttime"   type="xs:string" />
+	<xs:attribute name="stoptime"    type="xs:string" />
+	<xs:attribute name="name"        type="alphaRestriction" />
+	<xs:attribute name="logo-src"    type="alphaRestriction" />
+	<xs:attribute name="role"        type="xs:string" />
 
 	<!-- def COMPLEX TYPES -->
 	<xs:complexType name="ctDate">
@@ -37,10 +38,28 @@ elementFormDefault="qualified">
 		</xs:simpleContent>
 	</xs:complexType>
 
+	<xs:complexType name="ctRole">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute ref="role" use="optional" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
 
 
 
 	<!-- def ELEMENTS -->
+	<xs:element name="title"        type="ctLang" />
+	<xs:element name="sub-title"    type="ctLang" />
+	<xs:element name="desc"         type="ctLang" />
+	<xs:element name="prod-date"    type="xs:integer" />
+	<xs:element name="category"     type="ctLang" />
+	<xs:element name="episode-num"  type="ctLang" />
+	<xs:element name="star-rating"  type="xs:string" />
+	<xs:element name="director"     type="xs:string" />
+	<xs:element name="actor"        type="ctRole" />
+	<xs:element name="writer"       type="xs:string" />
+
 	<xs:element name="date" >
 		<xs:complexType>
 			<xs:complexContent>
@@ -66,11 +85,26 @@ elementFormDefault="qualified">
 	<xs:element name="programme">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="title" type="ctLang" minOccurs="1" maxOccurs="unbounded" />
-				<xs:element name="sub-title" type="ctLang" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="title"        minOccurs="1" maxOccurs="unbounded" />
+				<xs:element ref="sub-title"    minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="desc"         minOccurs="1" maxOccurs="unbounded" />
+				<xs:element name="credits"     minOccurs="0" maxOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element ref="director"   minOccurs="0" maxOccurs="unbounded" />
+							<xs:element ref="actor"      minOccurs="0" maxOccurs="unbounded" />
+							<xs:element ref="writer"     minOccurs="0" maxOccurs="unbounded" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="prod-date"    minOccurs="0" maxOccurs="1" />
+				<xs:element ref="category"     minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="episode-num"  minOccurs="0" maxOccurs="unbounded" />
+				<xs:element ref="star-rating"  minOccurs="0" maxOccurs="1" />
+
 			</xs:sequence>
 			<xs:attribute ref="starttime" use="required" />
-			<xs:attribute ref="stoptime" use="required" />
+			<xs:attribute ref="stoptime"  use="required" />
 		</xs:complexType>
 	</xs:element>
 
