@@ -88,7 +88,7 @@
 			
 			<legend>
 				<xsl:if test="premiere">
-					<div class="premiere">premiere</div>
+					<div class="premiere"><xsl:value-of select="premiere" /></div>
 				</xsl:if>
 				<div class="timespan">
 					<xsl:value-of select="substring(@starttime, 9, 2)" />:<xsl:value-of select="substring(@starttime, 11, 2)" /> - <xsl:value-of select="substring(@stoptime, 9, 2)" />:<xsl:value-of select="substring(@stoptime, 11, 2)" />
@@ -97,8 +97,13 @@
 
 			<div class="programme-header">
 				<div class="title"><xsl:value-of select="title" /></div>
-				<xsl:if test="previously-shown"><div class="previously-shown"> (repris)</div></xsl:if>
-				<div class="subtitle"><xsl:value-of select="sub-title" /></div>
+				<xsl:if test="previously-shown"><div class="after-title"> (repris)</div></xsl:if>
+				<xsl:if test="premiere">
+					<div class="after-title"><xsl:value-of select="premiere" /></div>
+				</xsl:if>
+				<xsl:if test="sub-title">
+					<div class="sub-title"><xsl:value-of select="sub-title" /></div>
+				</xsl:if>
 			</div>
 
 			<div class="programme-content">
@@ -119,26 +124,32 @@
 
 	<xsl:template name="tCredits" match="credits" >
 		<div class="credits">
-			<xsl:if test="credits/director">
-				<div class="creditlabel">director:</div>
-			</xsl:if>
-			<xsl:for-each select="credits/director">
-				<div class="creditee {name(.)}"><xsl:value-of select="." /></div>
-			</xsl:for-each>
+			<div class="credit-section" >
+				<xsl:if test="credits/director">
+					<div class="creditlabel">director:</div>
+				</xsl:if>
+				<xsl:for-each select="credits/director">
+					<div class="creditee {name(.)}"><xsl:value-of select="." /></div>
+				</xsl:for-each>
+			</div>
 
-			<xsl:if test="credits/writer">
-				<div class="creditlabel">writer:</div>
-			</xsl:if>
-			<xsl:for-each select="credits/writer">
-				<div class="creditee {name(.)}"><xsl:value-of select="." /></div>
-			</xsl:for-each>
+			<div class="credit-section" >
+				<xsl:if test="credits/writer">
+					<div class="creditlabel">writer:</div>
+				</xsl:if>
+				<xsl:for-each select="credits/writer">
+					<div class="creditee {name(.)}"><xsl:value-of select="." /></div>
+				</xsl:for-each>
+			</div>
 
-			<xsl:if test="credits/actor">
-				<div class="creditlabel">starring:</div>
-			</xsl:if>
-			<xsl:for-each select="credits/actor">
-				<div class="creditee {name(.)}"><xsl:value-of select="." /></div>
-			</xsl:for-each>
+			<div class="credit-section" >
+				<xsl:if test="credits/actor">
+					<div class="creditlabel">starring:</div>
+				</xsl:if>
+				<xsl:for-each select="credits/actor">
+					<div class="creditee {name(.)}"><xsl:value-of select="." /></div>
+				</xsl:for-each>
+			</div>
 
 		</div>
 	</xsl:template> <!-- tCredits -->
