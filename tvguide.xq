@@ -1,3 +1,10 @@
+(: 
+	author Mikael Holmbom
+	version 1.0 
+
+	translates tvguide.xml to html format
+
+:)
 xquery version "3.0";
 
 <html>
