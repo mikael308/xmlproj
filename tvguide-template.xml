@@ -7,26 +7,35 @@
 	>
 	<channels>
 		<channel 
+			id="discovery"
 			logo-src="./img/logo/world.discoveryworld.se.png"
-			file-src="hdshowcase.discoverychannel.com">
-			<date year="2015" month="10" day="13" />
-			<date year="2015" month="10" day="14" />
-			<date year="2015" month="10" day="15" />
-		</channel>
+			file-src="hdshowcase.discoverychannel.com" />
 		<channel 
+			id="tv4"
 			logo-src="./img/logo/tv4.se.png"
-			file-src="hdshowcase.discoverychannel.com">
-			<date year="2015" month="10" day="13" />
-			<date year="2015" month="10" day="14" />
-			<date year="2015" month="10" day="15" />
-		</channel>
+			file-src="hdshowcase.discoverychannel.com" />
 		<channel 
+			id="nickelodeon"
 			logo-src="./img/logo/nickelodeon.se.png"
-			file-src="hdshowcase.discoverychannel.com">
-			<date year="2015" month="10" day="13" />
-			<date year="2015" month="10" day="14" />
-			<date year="2015" month="10" day="15" />
-		</channel>
+			file-src="hdshowcase.discoverychannel.com" />
 	</channels>
+	<dates>
+		<date year="2015" month="10" day="13">
+			<channel id="discovery" />
+			<channel id="tv4" />
+			<channel id="nickelodeon" />
+
+		</date>
+		<date year="2015" month="10" day="14">
+			<channel id="discovery" />
+			<channel id="tv4" />
+			<channel id="nickelodeon" />
+		</date>
+		<date year="2015" month="10" day="15">
+			<channel id="discovery" />
+			<channel id="tv4" />
+			<channel id="nickelodeon" />
+		</date>
+	</dates>
 
 </tvguide-template>
