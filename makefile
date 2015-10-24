@@ -1,7 +1,7 @@
 CC_XSL		= xsltproc
 CC_XQ		= zorba
-TEMPLATE	= tvguide-template.xml
 TEMPLATE_XQ	= tvguide.xq
+TEMPLATE	= tvguide-form.xml
 OUT		= tvguide.xml
 OUT_XQ		= tvguide-xq.html
 OBJS		= tvguide xquery

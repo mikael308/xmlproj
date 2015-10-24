@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 
+	author: Mikael Holmbom
+	version: 2.0
+-->
+<?xml-stylesheet type="text/xsl" href="tvguide-stylesheet.xsl" ?>
+
+<tvguide-form
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="tvguide-form.xsd"
+	>
+	<channels>
+		<channel 
+			id="discovery"
+			logo-src="./img/logo/world.discoveryworld.se.png"
+			file-src="./xmltvdata/hd.tv4.se" />
+		<channel 
+			id="tv4"
+			logo-src="./img/logo/tv4.se.png"
+			file-src="./xmltvdata/hdshowcase.discoverychannel.com" />
+		<channel 
+			id="nickelodeon"
+			logo-src="./img/logo/nickelodeon.se.png"
+			file-src="./xmltvdata/nickelodeon.se" />
+	</channels>
+	<dates>
+		<date year="2015" month="10" day="13">
+
+			<content id="nickelodeon" />
+
+		</date>
+		<date year="2015" month="10" day="14">
+			<content id="discovery" />
+			<content id="tv4" />
+		</date>
+		<date year="2015" month="10" day="15">
+			<content id="discovery" />
+			<content id="tv4" />
+			<content id="nickelodeon" />
+		</date>
+	</dates>
+
+</tvguide-form>

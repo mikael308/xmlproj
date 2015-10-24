@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!--
+	author: Mikael Holmbom
+	version: 2.0
+	-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified">
+
+
+
+	<!-- def SIMPLE TYPES -->
+	<xs:simpleType name="alphaRestriction">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+
+
+	<!-- def ATTRIBUTES -->
+	<xs:attribute name="year"  type="xs:integer" />
+	<xs:attribute name="month" type="xs:integer" />
+	<xs:attribute name="day"   type="xs:integer" />
+	<xs:attribute name="id"    type="alphaRestriction" />
+
+
+	<!-- def ATTRIBUTEGROUP -->
+	<xs:attributeGroup name="attrgrDate">
+		<xs:attribute ref="year"  use="required" />
+		<xs:attribute ref="month" use="required" />
+		<xs:attribute ref="day"   use="required" />
+	</xs:attributeGroup>
+
+
+	<!-- def COMPLEX TYPES -->
+	<xs:complexType name="ctChannel">
+		<xs:attribute ref="id" />
+		<xs:attribute name="logo-src" type="alphaRestriction" use="optional" />
+		<xs:attribute name="file-src" type="alphaRestriction" use="required" />
+	</xs:complexType>
+	<xs:complexType name="ctID">
+		<xs:attribute ref="id" use="required" />
+	</xs:complexType>
+	<xs:complexType name="ctDates">
+		<xs:sequence>
+			<xs:element ref="date" minOccurs="1" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ctChannels">
+		<xs:sequence>
+			<xs:element ref="channel" minOccurs="1" maxOccurs="unbounded" /> 
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<!-- def ELEMENTS -->
+	<xs:element name="channel" type="ctChannel" />
+	<xs:element name="content" type="ctID" />
+	<xs:element name="date">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="content" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+			<xs:attributeGroup ref="attrgrDate" />
+		</xs:complexType>
+		<xs:unique name="unique-contentID">
+			<xs:selector xpath="content"/>
+			<xs:field xpath="@id"/>
+		</xs:unique>
+	</xs:element>
+	<xs:element name="dates"     type="ctDates" />
+	<xs:element name="channels"  type="ctChannels">
+		<xs:unique name="unique-channelID">
+			<xs:selector xpath="channel"/>
+			<xs:field xpath="@id"/>
+		</xs:unique>
+	</xs:element>
+
+
+
+
+
+	<!-- ROOT ELEMENT -->
+	<xs:element name="tvguide-form">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="channels" />
+				<xs:element ref="dates"    />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

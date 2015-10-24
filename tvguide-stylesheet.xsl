@@ -3,7 +3,7 @@
 	<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
 
-	<xsl:template name="tRoot" match="/xmltv" >
+	<xsl:template name="tRoot" match="/tvguide-form" >
 		<!-- add stylesheet declaration-->
 		<xsl:processing-instruction name="xml-stylesheet">
 				<xsl:text>type="text/xsl" href="tvguide-html.xsl"</xsl:text>
@@ -33,21 +33,26 @@
 
 
 
-	<xsl:template name="tDate">
-		<xsl:variable name="year"   select="@year" />
-		<xsl:variable name="month"  select="@month" />
-		<xsl:variable name="day"    select="@day" />
+	<xsl:template name="tDate" match="tvguide-form/dates/date">
+		<xsl:param name="year"  />
+		<xsl:param name="month" />
+		<xsl:param name="day"   />
 
 		<date year="{$year}" month="{$month}" day="{$day}">
 
-			<xsl:for-each select="//xmltv/channels/channel">
-				<xsl:variable name="xmltvdata-path" select="concat('./xmltvdata/', ., '_', $year, '-', $month, '-', $day, '.xml')" />	
+			<xsl:for-each select="content">
+				<xsl:variable name="contentID" select="./@id" />
+				<xsl:variable name="channel" 
+					select="//tvguide-form/channels/channel[@id = $contentID]" />
+				<xsl:variable name="xmltvdata-path" 
+					select="concat($channel/@file-src, '_', $year, '-', $month, '-', $day, '.xml')" />
 
 				<xsl:call-template name="tChannel">
 					<xsl:with-param name="xmltvdata-path" select="$xmltvdata-path" />
-				</xsl:call-template> <!-- tChannel -->
+					<xsl:with-param name="logo-src" select="$channel/@logo-src" />
+				</xsl:call-template>
+			</xsl:for-each>
 
-			</xsl:for-each> <!-- channel -->
 
 		</date>
 	</xsl:template> <!-- tDate -->
@@ -56,10 +61,11 @@
 
 	<xsl:template name="tChannel" >
 		<xsl:param name="xmltvdata-path" />
+		<xsl:param name="logo-src" />
 
 		<xsl:variable name="xmltvdata-file" select="document($xmltvdata-path)" />
 
-		<channel name="{$xmltvdata-file/tv/programme/@channel}" logo-src="{@logo-src}" >
+		<channel name="{$xmltvdata-file/tv/programme/@channel}" logo-src="{$logo-src}" >
 			<xsl:for-each select="$xmltvdata-file/tv/programme">
 				<xsl:sort select="@starttime" order="ascending" />
 
