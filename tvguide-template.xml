@@ -21,15 +21,13 @@
 	</channels>
 	<dates>
 		<date year="2015" month="10" day="13">
-			<channel id="discovery" />
-			<channel id="tv4" />
+
 			<channel id="nickelodeon" />
 
 		</date>
 		<date year="2015" month="10" day="14">
 			<channel id="discovery" />
 			<channel id="tv4" />
-			<channel id="nickelodeon" />
 		</date>
 		<date year="2015" month="10" day="15">
 			<channel id="discovery" />

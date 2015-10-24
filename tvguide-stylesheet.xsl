@@ -3,7 +3,7 @@
 	<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
 
-	<xsl:template name="tRoot" match="/xmltv" >
+	<xsl:template name="tRoot" match="/tvguide-template" >
 		<!-- add stylesheet declaration-->
 		<xsl:processing-instruction name="xml-stylesheet">
 				<xsl:text>type="text/xsl" href="tvguide-html.xsl"</xsl:text>
@@ -33,21 +33,27 @@
 
 
 
-	<xsl:template name="tDate">
-		<xsl:variable name="year"   select="@year" />
-		<xsl:variable name="month"  select="@month" />
-		<xsl:variable name="day"    select="@day" />
+	<xsl:template name="tDate" >
+		<xsl:param name="year"  />
+		<xsl:param name="month" />
+		<xsl:param name="day"   />
 
 		<date year="{$year}" month="{$month}" day="{$day}">
 
-			<xsl:for-each select="//xmltv/channels/channel">
-				<xsl:variable name="xmltvdata-path" select="concat('./xmltvdata/', ., '_', $year, '-', $month, '-', $day, '.xml')" />	
+			<xsl:for-each select="channel">
+				<xsl:variable name="outChannelID" select="./@id" />
 
-				<xsl:call-template name="tChannel">
-					<xsl:with-param name="xmltvdata-path" select="$xmltvdata-path" />
-				</xsl:call-template> <!-- tChannel -->
+				<xsl:for-each select="//tvguide-template/channels/channel">
+					<xsl:if test="./@id = $outChannelID"> <!-- channel is declared -->
+						
+						<xsl:call-template name="tChannel">
+							<xsl:with-param name="xmltvdata-path" select="concat('./xmltvdata/', ./@file-src, '_', $year, '-', $month, '-', $day, '.xml')" />
+						</xsl:call-template>
 
-			</xsl:for-each> <!-- channel -->
+					</xsl:if>
+				</xsl:for-each>
+			</xsl:for-each>
+
 
 		</date>
 	</xsl:template> <!-- tDate -->
