@@ -1,5 +1,5 @@
 CC_XSL		= xsltproc
-TEMPLATE	= tvguide-template.xml
+TEMPLATE	= tvguide-form.xml
 OUT		= tvguide.xml
 OBJS		= tvguide
 E_C		= @echo "compiling " $@

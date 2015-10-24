@@ -3,7 +3,7 @@
 	<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 
 
-	<xsl:template name="tRoot" match="/tvguide-template" >
+	<xsl:template name="tRoot" match="/tvguide-form" >
 		<!-- add stylesheet declaration-->
 		<xsl:processing-instruction name="xml-stylesheet">
 				<xsl:text>type="text/xsl" href="tvguide-html.xsl"</xsl:text>
@@ -33,7 +33,7 @@
 
 
 
-	<xsl:template name="tDate" match="tvguide-template/dates/date">
+	<xsl:template name="tDate" match="tvguide-form/dates/date">
 		<xsl:param name="year"  />
 		<xsl:param name="month" />
 		<xsl:param name="day"   />
@@ -43,7 +43,7 @@
 			<xsl:for-each select="content">
 				<xsl:variable name="contentID" select="./@id" />
 				<xsl:variable name="channel" 
-					select="//tvguide-template/channels/channel[@id = $contentID]" />
+					select="//tvguide-form/channels/channel[@id = $contentID]" />
 				<xsl:variable name="xmltvdata-path" 
 					select="concat($channel/@file-src, '_', $year, '-', $month, '-', $day, '.xml')" />
 

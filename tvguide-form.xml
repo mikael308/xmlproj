@@ -5,9 +5,9 @@
 -->
 <?xml-stylesheet type="text/xsl" href="tvguide-stylesheet.xsl" ?>
 
-<tvguide-template
+<tvguide-form
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="tvguide-template.xsd"
+	xsi:noNamespaceSchemaLocation="tvguide-form.xsd"
 	>
 	<channels>
 		<channel 
@@ -40,4 +40,4 @@
 		</date>
 	</dates>
 
-</tvguide-template>
+</tvguide-form>

@@ -80,7 +80,7 @@ elementFormDefault="qualified">
 
 
 	<!-- ROOT ELEMENT -->
-	<xs:element name="tvguide-template">
+	<xs:element name="tvguide-form">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element ref="channels" />
