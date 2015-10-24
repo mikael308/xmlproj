@@ -13,15 +13,15 @@
 		<channel 
 			id="discovery"
 			logo-src="./img/logo/world.discoveryworld.se.png"
-			file-src="hdshowcase.discoverychannel.com" />
+			file-src="./xmltvdata/hd.tv4.se" />
 		<channel 
 			id="tv4"
 			logo-src="./img/logo/tv4.se.png"
-			file-src="hdshowcase.discoverychannel.com" />
+			file-src="./xmltvdata/hdshowcase.discoverychannel.com" />
 		<channel 
 			id="nickelodeon"
 			logo-src="./img/logo/nickelodeon.se.png"
-			file-src="hdshowcase.discoverychannel.com" />
+			file-src="./xmltvdata/nickelodeon.se" />
 	</channels>
 	<dates>
 		<date year="2015" month="10" day="13">
