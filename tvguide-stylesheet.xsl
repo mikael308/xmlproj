@@ -80,7 +80,7 @@
 
 
 	<xsl:template name="tProgramme">
-		<programme starttime="{@start}" stoptime="{@stop}">
+		<programme starttime="{substring(@start, 9, 4)}" stoptime="{substring(@stop, 9, 4)}">
 	
 			<xsl:if test="title">
 				<title lang="{title/@lang}" ><xsl:value-of select="title"/></title>

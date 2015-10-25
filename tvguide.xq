@@ -5,6 +5,7 @@
 	translates tvguide.xml to html format
 
 :)
+
 xquery version "3.0";
 
 
@@ -44,8 +45,8 @@ declare function local:getProgrammes($channel)
 	return <fieldset class="programme">
 		<legend>
 			<div class="timespan">
-				{substring(data($programme/@starttime), 9, 2)}:{substring(data($programme/@starttime), 11, 2)} - 
-				{substring(data($programme/@stoptime), 9, 2)}:{substring(data($programme/@stoptime), 11, 2)}
+				{substring(data($programme/@starttime), 1, 2)}:{substring(data($programme/@starttime), 3, 2)} - 
+				{substring(data($programme/@stoptime), 1, 2)}:{substring(data($programme/@stoptime), 3, 2)}
 			</div>
 		</legend>
 		<div class="programme-header">

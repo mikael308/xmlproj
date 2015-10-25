@@ -89,7 +89,7 @@
 			<legend>
 
 				<div class="timespan">
-					<xsl:value-of select="substring(@starttime, 9, 2)" />:<xsl:value-of select="substring(@starttime, 11, 2)" /> - <xsl:value-of select="substring(@stoptime, 9, 2)" />:<xsl:value-of select="substring(@stoptime, 11, 2)" />
+					<xsl:value-of select="substring(@starttime, 1, 2)" />:<xsl:value-of select="substring(@starttime, 3, 2)" /> - <xsl:value-of select="substring(@stoptime, 1, 2)" />:<xsl:value-of select="substring(@stoptime, 3, 2)" />
 				</div>
 			</legend>
 
