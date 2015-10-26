@@ -1,11 +1,11 @@
-CC_XSL		= xsltproc
-CC_XQ		= zorba
-TEMPLATE_XQ	= tvguide.xq
-TEMPLATE	= tvguide-form.xml
-OUT		= tvguide.xml
-OUT_XQ		= tvguide-xq.html
-OBJS		= tvguide xquery
-E_C		= @echo "compiling " $@
+CC_XSL				= xsltproc
+CC_XQ					= zorba
+TEMPLATE_XQ		= tvguide.xq
+TEMPLATE			= tvguide-form.xml
+OUT						= tvguide.xml
+OUT_XQ				= tvguide-xq.html
+OBJS					= tvguide xquery
+E_C						= @echo "compiling " $@
 
 
 
