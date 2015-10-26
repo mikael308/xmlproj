@@ -4,7 +4,7 @@ TEMPLATE_XSLT	= tvguide-form.xml
 TEMPLATE_XQ		= tvguide.xq
 OUT_XSLT			= tvguide.xml
 OUT_XQ				= tvguide-xq.html
-OBJS					= tvguide xquery
+OBJS					= xslt xquery
 E_C						= @echo "compiling " $@
 
 
@@ -12,7 +12,7 @@ E_C						= @echo "compiling " $@
 all: $(OBJS)
 	$(E_C)
 
-tvguide:
+xslt:
 	$(E_C)
 	$(CC_XSLT) $(TEMPLATE_XSLT) > $(OUT_XSLT)
 xquery:
