@@ -1,8 +1,8 @@
-CC_XSL				= xsltproc
+CC_XSLT				= xsltproc
 CC_XQ					= zorba
 TEMPLATE_XQ		= tvguide.xq
-TEMPLATE			= tvguide-form.xml
-OUT						= tvguide.xml
+TEMPLATE_XSLT	= tvguide-form.xml
+OUT_XSLT			= tvguide.xml
 OUT_XQ				= tvguide-xq.html
 OBJS					= tvguide xquery
 E_C						= @echo "compiling " $@
@@ -14,7 +14,7 @@ all: $(OBJS)
 
 tvguide:
 	$(E_C)
-	$(CC_XSL) $(TEMPLATE) > $(OUT)
+	$(CC_XSLT) $(TEMPLATE_XSLT) > $(OUT_XSLT)
 xquery:
 	$(E_C)
 	$(CC_XQ) $(TEMPLATE_XQ) -i > $(OUT_XQ) 
