@@ -89,24 +89,28 @@
 			<legend>
 
 				<div class="timespan">
-					<xsl:value-of select="substring(@starttime, 1, 2)" />:<xsl:value-of select="substring(@starttime, 3, 2)" /> - <xsl:value-of select="substring(@stoptime, 1, 2)" />:<xsl:value-of select="substring(@stoptime, 3, 2)" />
+					<xsl:value-of select="substring(@starttime, 1, 2)" />:<xsl:value-of select="substring(@starttime, 3, 2)" />
+					<!-- - <xsl:value-of select="substring(@stoptime, 1, 2)" />:<xsl:value-of select="substring(@stoptime, 3, 2)" />-->
 				</div>
 			</legend>
 
 			<div class="programme-header">
-				<div class="title"><xsl:value-of select="title" /></div>
-				<xsl:if test="prod-date">
-					<div class="prod-date">(<xsl:value-of select="prod-date" />)</div>
-				</xsl:if>
-				<xsl:if test="previously-shown">
-					<div class="after-title"> (repris)</div>
-				</xsl:if>
-				<xsl:if test="premiere">
-					<div class="after-title"><xsl:value-of select="premiere" /></div>
-				</xsl:if>
-				<xsl:if test="sub-title">
-					<div class="sub-title"><xsl:value-of select="sub-title" /></div>
-				</xsl:if>
+				<div class="header-topline">
+					<div class="title"><xsl:value-of select="title" /></div>
+					<xsl:if test="prod-date">
+						<div class="prod-date">(<xsl:value-of select="prod-date" />)</div>
+					</xsl:if>
+					<xsl:if test="previously-shown">
+						<div class="after-title"> (repris)</div>
+					</xsl:if>
+					<xsl:if test="premiere">
+						<div class="after-title"><xsl:value-of select="premiere" /></div>
+					</xsl:if>
+					<xsl:if test="sub-title">
+						<div class="sub-title"><xsl:value-of select="sub-title" /></div>
+					</xsl:if>
+				</div>
+				<hr />
 			</div>
 
 			<div class="programme-content">
@@ -116,6 +120,7 @@
 				<xsl:for-each select="category">
 					<div class="category"><xsl:value-of select="." /> </div>
 				</xsl:for-each>
+
 				<div class="desc"><xsl:value-of select="desc" /></div>
 				<xsl:call-template name="tCredits" />
 			</div>
