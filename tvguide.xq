@@ -45,24 +45,29 @@ declare function local:getProgrammes($channel)
 	return <fieldset class="programme">
 		<legend>
 			<div class="timespan">
-				{substring(data($programme/@starttime), 1, 2)}:{substring(data($programme/@starttime), 3, 2)} - 
-				{substring(data($programme/@stoptime), 1, 2)}:{substring(data($programme/@stoptime), 3, 2)}
+				{substring(data($programme/@starttime), 1, 2)}:{substring(data($programme/@starttime), 3, 2)}
 			</div>
 		</legend>
 		<div class="programme-header">
-			<div class="title">{data($programme/title)}</div>
-			<div class="prod-date">({data($programme/prod-date)})</div>
-			{
-				if ($programme/previously-shown)
-				then <div class="after-title">(repris)</div>
-				else (),
+			<div class="header-topline">
+				<div class="title">{data($programme/title)}</div>
+				{
+					if ($programme/prod-date)
+					then <div class="prod-date">({data($programme/prod-date)})</div>
+					else (),
 
-				if ($programme/premiere)
-				then <div class="after-title">{data($programme/premiere)}</div>
-				else ()
-			}
+					if ($programme/previously-shown)
+					then <div class="after-title">(repris)</div>
+					else (),
 
-			<div class="sub-title">{data($programme/sub-title)}</div>
+					if ($programme/premiere)
+					then <div class="after-title">{data($programme/premiere)}</div>
+					else ()
+				}
+
+				<div class="sub-title">{data($programme/sub-title)}</div>
+				<hr />
+			</div>
 		</div>
 		<div class="programme-content">
 			{
