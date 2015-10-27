@@ -1,13 +1,13 @@
 html {
 	font-family: sans-serif;
 	font-size: 10pt;
-	background-color:gray;
+	background-color:lightgray;
 }
 
 
 body {
 	padding: 30px 50px;
-	max-width: 900px;
+	max-width: 990px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
