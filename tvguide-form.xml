@@ -27,10 +27,11 @@
 		<date year="2015" month="10" day="13">
 
 			<content id="nickelodeon" />
-
+			<content id="discovery" />
+			<content id="tv4" />
 		</date>
 		<date year="2015" month="10" day="14">
-			<content id="discovery" />
+	
 			<content id="tv4" />
 		</date>
 		<date year="2015" month="10" day="15">
