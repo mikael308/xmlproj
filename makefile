@@ -5,7 +5,7 @@ TEMPLATE_XQ		= tvguide.xq
 OUT_XSLT			= tvguide.xml
 OUT_XQ				= tvguide-xq.html
 OBJS					= xslt xquery
-E_C						= @echo "compiling " $@
+E_C						= @echo "transforming " $@
 
 
 
