@@ -19,6 +19,10 @@ body {
 header {
 	padding-top:50px;
 }
+header h1 {
+	margin-left:auto;
+	margin-right: auto;
+}
 
 main {
 	margin: 0 20px;
@@ -51,6 +55,15 @@ hr{
 
  .article-header {
  	clear: both;
+ 	margin-bottom:0px;
+}
+.article-header h2 {
+	margin-bottom: 0px;
+}
+article hr {
+	color:blue;
+	margin-bottom: 10px;
+
 }
 .article-content {
 	margin-left: 20px;
@@ -110,6 +123,9 @@ hr{
 
 .programme .header-topline{
 
+}
+.programme hr {
+	color:black;
 }
 
 .programme .programme-content {
