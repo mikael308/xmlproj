@@ -29,6 +29,11 @@ elementFormDefault="qualified">
 		<xs:attribute ref="month"  use="required" />
 		<xs:attribute ref="day"    use="required" />
 	</xs:complexType>
+	<xs:complexType name="ctInfo">
+		<xs:sequence>
+			<xs:element ref="logo" />
+		</xs:sequence>
+	</xs:complexType>
 
 	<xs:complexType name="ctLang">
 		<xs:simpleContent>
@@ -65,6 +70,13 @@ elementFormDefault="qualified">
 	<xs:element name="director"     type="xs:string" />
 	<xs:element name="actor"        type="ctRole" />
 	<xs:element name="writer"       type="xs:string" />
+	<xs:element name="logo">
+		<xs:complexType>
+			<xs:attribute name="title" type="xs:string" />
+			<xs:attribute name="src"   type="xs:string" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="info" type="ctInfo" />
 
 	<xs:element name="date" >
 		<xs:complexType>
@@ -119,6 +131,7 @@ elementFormDefault="qualified">
 	<xs:element name="tvguide">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="info" minOccurs="1" maxOccurs="1" />
 				<xs:element ref="date" minOccurs="1" maxOccurs="unbounded" />
 			</xs:sequence>
 		</xs:complexType>

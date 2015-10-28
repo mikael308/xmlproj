@@ -119,6 +119,11 @@ declare function local:toHTML($tvguide)
 	</head>
 	<body>
 		<header>
+			{
+				<div class="tvguide-logo">
+					<img src="{data($tvguide/info/logo/@src)}"></img>
+				</div>
+			}
 			<h1>TV-guide</h1>
 			{data($tvguide/date[1]/@year)}-{data($tvguide/date[1]/@month)}-{data($tvguide/date[1]/@day)}
 <br/>

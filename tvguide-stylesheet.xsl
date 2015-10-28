@@ -14,6 +14,8 @@
 			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 			xsi:schemaLocation="tvguide tvguide.xsd" >
 			
+			<xsl:call-template name="tLogo" />
+
 			<xsl:for-each select="dates/date">
 				<xsl:sort select="@year"   date-type="number" order="ascending" />
 				<xsl:sort select="@month"  date-type="number" order="ascending" />
@@ -31,7 +33,11 @@
 	</xsl:template><!-- tRoot -->
 
 
-
+	<xsl:template name="tLogo" match="tvguide-form/info/">
+		<info>
+			<logo title="{info/logo/@title}" src="{info/logo/@src}" />
+		</info>
+	</xsl:template>
 
 	<xsl:template name="tDate" match="tvguide-form/dates/date">
 		<xsl:param name="year"  />

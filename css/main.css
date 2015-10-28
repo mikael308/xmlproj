@@ -42,6 +42,12 @@ article {
 hr{
 	margin:0px;
 }
+.tvguide-logo  {
+	margin-left:auto;
+	margin-right:auto;
+	height:100px;
+	width:100px;
+}
 
  .article-header {
  	clear: both;

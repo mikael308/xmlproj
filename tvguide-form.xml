@@ -9,6 +9,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="tvguide-form.xsd"
 	>
+	<info>
+		<logo title="tvguide-logo" src="img/tvguide-logo.svg" />
+	</info>
 	<channels>
 		<channel 
 			id="discovery"

@@ -50,11 +50,23 @@ elementFormDefault="qualified">
 			<xs:element ref="channel" minOccurs="1" maxOccurs="unbounded" /> 
 		</xs:sequence>
 	</xs:complexType>
+	<xs:complexType name="ctInfo">
+		<xs:sequence>
+			<xs:element ref="logo" />
+		</xs:sequence>
+	</xs:complexType>
 
 
 	<!-- def ELEMENTS -->
 	<xs:element name="channel" type="ctChannel" />
 	<xs:element name="content" type="ctID" />
+	<xs:element name="info" type="ctInfo" />
+	<xs:element name="logo">
+		<xs:complexType>
+			<xs:attribute name="title"     type="xs:string" />
+			<xs:attribute name="src"  type="xs:string" />
+		</xs:complexType>
+	</xs:element>
 	<xs:element name="date">
 		<xs:complexType>
 			<xs:sequence>
@@ -79,10 +91,12 @@ elementFormDefault="qualified">
 
 
 
+
 	<!-- ROOT ELEMENT -->
 	<xs:element name="tvguide-form">
 		<xs:complexType>
 			<xs:sequence>
+				<xs:element ref="info" minOccurs="1" maxOccurs="1" />
 				<xs:element ref="channels" />
 				<xs:element ref="dates"    />
 			</xs:sequence>

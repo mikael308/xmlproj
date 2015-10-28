@@ -23,6 +23,9 @@
 
 	<xsl:template name="tHeader">
 		<header>
+			<div class="tvguide-logo">
+				<img src="{//info/logo/@src}"></img>
+			</div>
 			<h1>TV-guide</h1>
 
 			<div class="date">
