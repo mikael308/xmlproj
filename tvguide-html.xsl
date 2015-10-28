@@ -64,6 +64,7 @@
 			<div class="article-header">
 				<h2><xsl:value-of select="@year" />-<xsl:value-of select="@month" />-<xsl:value-of select="@day" /></h2>
 			</div>
+			<hr />
 			<div class="article-content">
 				<xsl:apply-templates />
 			</div>

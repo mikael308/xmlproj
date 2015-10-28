@@ -139,7 +139,9 @@ declare function local:toHTML($tvguide)
 				return <article>
 					<div class="article-header">
 						<h2>{data($date/@year)}-{data($date/@month)}-{data($date/@day)}</h2>
+
 					</div>
+					<hr />
 					<div class="article-content">
 						{local:getChannels($date)}
 					</div>
