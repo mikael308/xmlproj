@@ -10,6 +10,4 @@
 
 
 
-7. översätt xpath till xquery
-
-8. i tvguide-html transf programmes childs enskilda, få detta bättre
+8.  i tvguide-html transf programmes childs enskilda, få detta bättre
