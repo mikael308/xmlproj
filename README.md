@@ -9,7 +9,6 @@
 
 
 
-6. fixa screen cast
 
 7. översätt xpath till xquery
 
